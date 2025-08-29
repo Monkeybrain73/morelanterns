@@ -1,0 +1,770 @@
+{
+	"editor": {
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"stone": "game:block/stone/rock/granite1"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Hibukuro",
+					"from": [ 0.0, -18.0, 0.0 ],
+					"to": [ 0.0, -18.0, 0.0 ],
+					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "HibukuroN",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.0, 0.0, 0.0 ],
+							"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "Hibukuro1",
+									"from": [ 6.5, 18.0, 5.0 ],
+									"to": [ 9.5, 19.5, 5.4 ],
+									"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 9.0, 12.0, 12.0, 13.5 ] },
+										"east": { "texture": "#stone", "uv": [ 1.0, 2.0, 1.5, 3.5 ] },
+										"south": { "texture": "#stone", "uv": [ 7.5, 13.0, 10.5, 14.5 ] },
+										"west": { "texture": "#stone", "uv": [ 13.5, 13.5, 14.0, 15.0 ] },
+										"up": { "texture": "#stone", "uv": [ 9.5, 9.5, 12.5, 10.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro2",
+									"from": [ 6.5, 21.0, 5.0 ],
+									"to": [ 9.5, 22.5, 5.4 ],
+									"rotationOrigin": [ 8.0, 21.0, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 7.5, 4.5, 10.5, 6.0 ] },
+										"east": { "texture": "#stone", "uv": [ 6.5, 9.5, 7.0, 11.0 ] },
+										"south": { "texture": "#stone", "uv": [ 11.5, 5.0, 14.5, 6.5 ] },
+										"west": { "texture": "#stone", "uv": [ 13.0, 9.5, 13.5, 11.0 ] },
+										"up": { "texture": "#stone", "uv": [ 5.0, 1.5, 8.0, 2.0 ] },
+										"down": { "texture": "#stone", "uv": [ 11.0, 14.0, 14.0, 14.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro3",
+									"from": [ 6.5, 19.5, 5.0 ],
+									"to": [ 7.0, 21.0, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.5, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 1.5, 8.5, 2.0, 10.0 ] },
+										"east": { "texture": "#stone", "uv": [ 1.5, 2.0, 2.0, 3.5 ] },
+										"south": { "texture": "#stone", "uv": [ 2.0, 4.0, 2.5, 5.5 ] },
+										"west": { "texture": "#stone", "uv": [ 9.0, 13.0, 9.5, 14.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro4",
+									"from": [ 8.9, 19.5, 5.0 ],
+									"to": [ 9.5, 21.0, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.5, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 14.0, 14.0, 14.5, 15.5 ] },
+										"east": { "texture": "#stone", "uv": [ 13.5, 1.0, 14.0, 2.5 ] },
+										"south": { "texture": "#stone", "uv": [ 9.5, 11.5, 10.0, 13.0 ] },
+										"west": { "texture": "#stone", "uv": [ 2.0, 1.5, 2.5, 3.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro5",
+									"from": [ 8.28, 19.2, 5.05 ],
+									"to": [ 9.28, 19.7, 5.33 ],
+									"rotationOrigin": [ 8.55, 19.5, 5.0 ],
+									"rotationZ": 45.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 12.0, 8.0, 13.0, 8.5 ] },
+										"south": { "texture": "#stone", "uv": [ 5.0, 8.5, 6.0, 9.0 ] },
+										"up": { "texture": "#stone", "uv": [ 14.0, 2.5, 15.0, 3.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro6",
+									"from": [ 6.97, 19.2, 5.05 ],
+									"to": [ 7.97, 19.7, 5.33 ],
+									"rotationOrigin": [ 7.25, 19.5, 5.0 ],
+									"rotationZ": 135.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 12.5, 1.5, 13.5, 2.0 ] },
+										"south": { "texture": "#stone", "uv": [ 8.5, 14.0, 9.5, 14.5 ] },
+										"down": { "texture": "#stone", "uv": [ 5.5, 1.5, 6.5, 2.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro7",
+									"from": [ 8.27, 20.72, 5.05 ],
+									"to": [ 9.37, 21.22, 5.33 ],
+									"rotationOrigin": [ 8.55, 21.0, 5.0 ],
+									"rotationZ": -45.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 14.5, 14.0, 15.5, 14.5 ] },
+										"south": { "texture": "#stone", "uv": [ 4.5, 13.5, 5.5, 14.0 ] },
+										"down": { "texture": "#stone", "uv": [ 13.0, 3.0, 14.0, 3.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro8",
+									"from": [ 7.07, 20.72, 5.05 ],
+									"to": [ 8.17, 21.22, 5.33 ],
+									"rotationOrigin": [ 7.35, 21.0, 5.0 ],
+									"rotationZ": -135.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 2.5, 13.5, 3.5, 14.0 ] },
+										"south": { "texture": "#stone", "uv": [ 2.5, 0.5, 3.5, 1.0 ] },
+										"up": { "texture": "#stone", "uv": [ 7.0, 5.5, 8.0, 6.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "HibukuroS",
+							"from": [ 0.0, 0.0, 5.6 ],
+							"to": [ 0.0, 0.0, 5.6 ],
+							"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "Hibukuro9",
+									"from": [ 6.5, 18.0, 5.0 ],
+									"to": [ 9.5, 19.5, 5.4 ],
+									"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 4.5, 12.0, 7.5, 13.5 ] },
+										"east": { "texture": "#stone", "uv": [ 3.5, 11.0, 4.0, 12.5 ] },
+										"south": { "texture": "#stone", "uv": [ 8.0, 3.0, 11.0, 4.5 ] },
+										"west": { "texture": "#stone", "uv": [ 1.0, 10.0, 1.5, 11.5 ] },
+										"up": { "texture": "#stone", "uv": [ 2.0, 4.0, 5.0, 4.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro10",
+									"from": [ 6.5, 21.0, 5.0 ],
+									"to": [ 9.5, 22.5, 5.4 ],
+									"rotationOrigin": [ 8.0, 21.0, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 6.5, 10.5, 9.5, 12.0 ] },
+										"east": { "texture": "#stone", "uv": [ 3.5, 9.5, 4.0, 11.0 ] },
+										"south": { "texture": "#stone", "uv": [ 4.5, 5.5, 7.5, 7.0 ] },
+										"west": { "texture": "#stone", "uv": [ 11.0, 12.0, 11.5, 13.5 ] },
+										"up": { "texture": "#stone", "uv": [ 10.0, 10.0, 13.0, 10.5 ] },
+										"down": { "texture": "#stone", "uv": [ 4.0, 4.0, 7.0, 4.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro11",
+									"from": [ 6.5, 19.5, 5.0 ],
+									"to": [ 7.0, 21.0, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.5, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 4.0, 4.5, 4.5, 6.0 ] },
+										"east": { "texture": "#stone", "uv": [ 0.5, 11.5, 1.0, 13.0 ] },
+										"south": { "texture": "#stone", "uv": [ 2.0, 8.0, 2.5, 9.5 ] },
+										"west": { "texture": "#stone", "uv": [ 1.5, 0.0, 2.0, 1.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro12",
+									"from": [ 8.9, 19.5, 5.0 ],
+									"to": [ 9.5, 21.0, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.5, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 8.5, 11.0, 9.0, 12.5 ] },
+										"east": { "texture": "#stone", "uv": [ 1.0, 6.0, 1.5, 7.5 ] },
+										"south": { "texture": "#stone", "uv": [ 1.0, 8.5, 1.5, 10.0 ] },
+										"west": { "texture": "#stone", "uv": [ 0.5, 9.0, 1.0, 10.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro13",
+									"from": [ 8.28, 19.2, 5.05 ],
+									"to": [ 9.28, 19.7, 5.33 ],
+									"rotationOrigin": [ 8.55, 19.5, 5.0 ],
+									"rotationZ": 45.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 11.5, 2.5, 12.5, 3.0 ] },
+										"south": { "texture": "#stone", "uv": [ 3.5, 2.0, 4.5, 2.5 ] },
+										"up": { "texture": "#stone", "uv": [ 11.0, 15.0, 12.0, 15.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro14",
+									"from": [ 6.97, 19.2, 5.05 ],
+									"to": [ 7.97, 19.7, 5.33 ],
+									"rotationOrigin": [ 7.25, 19.5, 5.0 ],
+									"rotationZ": 135.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 5.5, 4.0, 6.5, 4.5 ] },
+										"south": { "texture": "#stone", "uv": [ 8.0, 6.0, 9.0, 6.5 ] },
+										"down": { "texture": "#stone", "uv": [ 10.5, 0.0, 11.5, 0.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								},
+								{
+									"name": "Hibukuro15",
+									"from": [ 8.27, 20.72, 5.05 ],
+									"to": [ 9.37, 21.22, 5.33 ],
+									"rotationOrigin": [ 8.55, 21.0, 5.0 ],
+									"rotationZ": -45.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 7.5, 4.0, 8.5, 4.5 ] },
+										"south": { "texture": "#stone", "uv": [ 6.0, 5.0, 7.0, 5.5 ] },
+										"down": { "texture": "#stone", "uv": [ 7.5, 2.5, 8.5, 3.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								},
+								{
+									"name": "Hibukuro16",
+									"from": [ 7.07, 20.72, 5.05 ],
+									"to": [ 8.17, 21.22, 5.33 ],
+									"rotationOrigin": [ 7.35, 21.0, 5.0 ],
+									"rotationZ": -135.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 2.0, 5.5, 3.0, 6.0 ] },
+										"south": { "texture": "#stone", "uv": [ 13.0, 11.0, 14.0, 11.5 ] },
+										"up": { "texture": "#stone", "uv": [ 3.0, 6.5, 4.0, 7.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						},
+						{
+							"name": "HibukuroE",
+							"from": [ 3.0, 0.0, 2.6 ],
+							"to": [ 3.0, 0.0, 2.6 ],
+							"rotationOrigin": [ 11.0, 18.0, 8.0 ],
+							"rotationY": 90.0,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "Hibukuro17",
+									"from": [ 6.5, 18.0, 5.0 ],
+									"to": [ 9.5, 19.5, 5.4 ],
+									"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 9.0, 12.5, 12.0, 14.0 ] },
+										"east": { "texture": "#stone", "uv": [ 7.0, 1.0, 7.5, 2.5 ] },
+										"south": { "texture": "#stone", "uv": [ 2.0, 7.0, 5.0, 8.5 ] },
+										"west": { "texture": "#stone", "uv": [ 13.0, 6.5, 13.5, 8.0 ] },
+										"up": { "texture": "#stone", "uv": [ 0.5, 7.5, 3.5, 8.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro18",
+									"from": [ 6.5, 21.0, 5.0 ],
+									"to": [ 9.5, 22.5, 5.4 ],
+									"rotationOrigin": [ 8.0, 21.0, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 1.0, 2.0, 4.0, 3.5 ] },
+										"east": { "texture": "#stone", "uv": [ 6.0, 3.5, 6.5, 5.0 ] },
+										"south": { "texture": "#stone", "uv": [ 1.0, 5.5, 4.0, 7.0 ] },
+										"west": { "texture": "#stone", "uv": [ 8.0, 8.0, 8.5, 9.5 ] },
+										"up": { "texture": "#stone", "uv": [ 6.5, 7.0, 9.5, 7.5 ] },
+										"down": { "texture": "#stone", "uv": [ 9.0, 9.5, 12.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								},
+								{
+									"name": "Hibukuro19",
+									"from": [ 6.5, 19.5, 5.0 ],
+									"to": [ 7.0, 21.0, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.5, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 14.0, 5.0, 14.5, 6.5 ] },
+										"east": { "texture": "#stone", "uv": [ 11.0, 8.0, 11.5, 9.5 ] },
+										"south": { "texture": "#stone", "uv": [ 0.5, 9.5, 1.0, 11.0 ] },
+										"west": { "texture": "#stone", "uv": [ 0.5, 3.5, 1.0, 5.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro20",
+									"from": [ 8.9, 19.5, 5.0 ],
+									"to": [ 9.5, 21.0, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.5, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 6.0, 12.0, 6.5, 13.5 ] },
+										"east": { "texture": "#stone", "uv": [ 10.5, 12.0, 11.0, 13.5 ] },
+										"south": { "texture": "#stone", "uv": [ 10.5, 3.0, 11.0, 4.5 ] },
+										"west": { "texture": "#stone", "uv": [ 14.5, 11.0, 15.0, 12.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro21",
+									"from": [ 8.28, 19.2, 5.05 ],
+									"to": [ 9.28, 19.7, 5.33 ],
+									"rotationOrigin": [ 8.55, 19.5, 5.0 ],
+									"rotationZ": 45.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 1.0, 1.0, 2.0, 1.5 ] },
+										"south": { "texture": "#stone", "uv": [ 3.0, 10.5, 4.0, 11.0 ] },
+										"up": { "texture": "#stone", "uv": [ 14.5, 8.0, 15.5, 8.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro22",
+									"from": [ 6.97, 19.2, 5.05 ],
+									"to": [ 7.97, 19.7, 5.33 ],
+									"rotationOrigin": [ 7.25, 19.5, 5.0 ],
+									"rotationZ": 135.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 3.5, 15.0, 4.5, 15.5 ] },
+										"south": { "texture": "#stone", "uv": [ 2.5, 10.5, 3.5, 11.0 ] },
+										"down": { "texture": "#stone", "uv": [ 8.0, 4.0, 9.0, 4.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								},
+								{
+									"name": "Hibukuro23",
+									"from": [ 8.27, 20.72, 5.05 ],
+									"to": [ 9.37, 21.22, 5.33 ],
+									"rotationOrigin": [ 8.55, 21.0, 5.0 ],
+									"rotationZ": -45.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 6.0, 11.5, 7.0, 12.0 ] },
+										"south": { "texture": "#stone", "uv": [ 13.5, 6.5, 14.5, 7.0 ] },
+										"down": { "texture": "#stone", "uv": [ 9.0, 7.0, 10.0, 7.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								},
+								{
+									"name": "Hibukuro24",
+									"from": [ 7.07, 20.72, 5.05 ],
+									"to": [ 8.17, 21.22, 5.33 ],
+									"rotationOrigin": [ 7.35, 21.0, 5.0 ],
+									"rotationZ": -135.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 5.5, 7.5, 6.5, 8.0 ] },
+										"south": { "texture": "#stone", "uv": [ 8.5, 9.0, 9.5, 9.5 ] },
+										"up": { "texture": "#stone", "uv": [ 9.5, 1.5, 10.5, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						},
+						{
+							"name": "HibukuroW",
+							"from": [ -3.0, 0.0, 3.0 ],
+							"to": [ -3.0, 0.0, 3.0 ],
+							"rotationOrigin": [ 5.0, 18.0, 8.0 ],
+							"rotationY": 90.0,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "Hibukuro25",
+									"from": [ 6.5, 18.0, 5.0 ],
+									"to": [ 9.5, 19.5, 5.4 ],
+									"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 6.5, 6.5, 9.5, 8.0 ] },
+										"east": { "texture": "#stone", "uv": [ 13.5, 10.5, 14.0, 12.0 ] },
+										"south": { "texture": "#stone", "uv": [ 0.0, 7.5, 3.0, 9.0 ] },
+										"west": { "texture": "#stone", "uv": [ 5.0, 10.0, 5.5, 11.5 ] },
+										"up": { "texture": "#stone", "uv": [ 12.5, 10.5, 15.5, 11.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro26",
+									"from": [ 6.5, 21.0, 5.0 ],
+									"to": [ 9.5, 22.5, 5.4 ],
+									"rotationOrigin": [ 8.0, 21.0, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 2.5, 7.0, 5.5, 8.5 ] },
+										"east": { "texture": "#stone", "uv": [ 1.0, 10.0, 1.5, 11.5 ] },
+										"south": { "texture": "#stone", "uv": [ 4.0, 4.0, 7.0, 5.5 ] },
+										"west": { "texture": "#stone", "uv": [ 5.5, 3.0, 6.0, 4.5 ] },
+										"up": { "texture": "#stone", "uv": [ 10.0, 3.0, 13.0, 3.5 ] },
+										"down": { "texture": "#stone", "uv": [ 10.0, 3.0, 13.0, 3.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								},
+								{
+									"name": "Hibukuro27",
+									"from": [ 6.5, 19.5, 5.0 ],
+									"to": [ 7.0, 21.0, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.5, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 4.0, 13.0, 4.5, 14.5 ] },
+										"east": { "texture": "#stone", "uv": [ 14.0, 8.5, 14.5, 10.0 ] },
+										"south": { "texture": "#stone", "uv": [ 12.0, 9.5, 12.5, 11.0 ] },
+										"west": { "texture": "#stone", "uv": [ 15.0, 7.5, 15.5, 9.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro28",
+									"from": [ 8.9, 19.5, 5.0 ],
+									"to": [ 9.5, 21.0, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.5, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 4.0, 14.0, 4.5, 15.5 ] },
+										"east": { "texture": "#stone", "uv": [ 3.0, 5.0, 3.5, 6.5 ] },
+										"south": { "texture": "#stone", "uv": [ 1.5, 9.5, 2.0, 11.0 ] },
+										"west": { "texture": "#stone", "uv": [ 12.5, 3.5, 13.0, 5.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro29",
+									"from": [ 8.28, 19.2, 5.05 ],
+									"to": [ 9.28, 19.7, 5.33 ],
+									"rotationOrigin": [ 8.55, 19.5, 5.0 ],
+									"rotationZ": 45.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 6.5, 13.0, 7.5, 13.5 ] },
+										"south": { "texture": "#stone", "uv": [ 1.5, 14.0, 2.5, 14.5 ] },
+										"up": { "texture": "#stone", "uv": [ 2.0, 4.5, 3.0, 5.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro30",
+									"from": [ 6.97, 19.2, 5.05 ],
+									"to": [ 7.97, 19.7, 5.33 ],
+									"rotationOrigin": [ 7.25, 19.5, 5.0 ],
+									"rotationZ": 135.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 11.5, 7.0, 12.5, 7.5 ] },
+										"south": { "texture": "#stone", "uv": [ 11.5, 11.0, 12.5, 11.5 ] },
+										"down": { "texture": "#stone", "uv": [ 7.0, 13.0, 8.0, 13.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								},
+								{
+									"name": "Hibukuro31",
+									"from": [ 8.27, 20.72, 5.05 ],
+									"to": [ 9.37, 21.22, 5.33 ],
+									"rotationOrigin": [ 8.55, 21.0, 5.0 ],
+									"rotationZ": -45.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 12.5, 7.0, 13.5, 7.5 ] },
+										"south": { "texture": "#stone", "uv": [ 6.0, 8.0, 7.0, 8.5 ] },
+										"down": { "texture": "#stone", "uv": [ 12.5, 8.5, 13.5, 9.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								},
+								{
+									"name": "Hibukuro32",
+									"from": [ 7.07, 20.72, 5.05 ],
+									"to": [ 8.17, 21.22, 5.33 ],
+									"rotationOrigin": [ 7.35, 21.0, 5.0 ],
+									"rotationZ": -135.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 6.0, 10.0, 7.0, 10.5 ] },
+										"south": { "texture": "#stone", "uv": [ 8.5, 3.0, 9.5, 3.5 ] },
+										"up": { "texture": "#stone", "uv": [ 13.0, 4.5, 14.0, 5.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						},
+						{
+							"name": "HibukuroNW",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.0, 0.0, 0.0 ],
+							"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+							"rotationY": 45.0,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "Hibukuro33",
+									"from": [ 6.9, 18.0, 5.0 ],
+									"to": [ 9.1, 19.1, 5.4 ],
+									"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 11.5, 14.5, 13.5, 15.5 ] },
+										"east": { "texture": "#stone", "uv": [ 0.5, 6.0, 1.0, 7.0 ] },
+										"south": { "texture": "#stone", "uv": [ 11.0, 6.0, 13.0, 7.0 ] },
+										"west": { "texture": "#stone", "uv": [ 10.0, 0.5, 10.5, 1.5 ] },
+										"up": { "texture": "#stone", "uv": [ 1.5, 1.0, 3.5, 1.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro34",
+									"from": [ 6.9, 21.4, 5.0 ],
+									"to": [ 9.1, 22.5, 5.4 ],
+									"rotationOrigin": [ 8.0, 21.4, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 10.5, 11.0, 12.5, 12.0 ] },
+										"east": { "texture": "#stone", "uv": [ 5.5, 7.5, 6.0, 8.5 ] },
+										"south": { "texture": "#stone", "uv": [ 13.5, 0.0, 15.5, 1.0 ] },
+										"west": { "texture": "#stone", "uv": [ 10.0, 12.0, 10.5, 13.0 ] },
+										"up": { "texture": "#stone", "uv": [ 0.0, 6.5, 2.0, 7.0 ] },
+										"down": { "texture": "#stone", "uv": [ 9.0, 9.0, 11.0, 9.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								},
+								{
+									"name": "Hibukuro35",
+									"from": [ 6.8, 19.1, 5.0 ],
+									"to": [ 7.3, 21.4, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.1, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 11.5, 13.0, 12.0, 15.0 ] },
+										"east": { "texture": "#stone", "uv": [ 11.0, 4.5, 11.5, 6.5 ] },
+										"south": { "texture": "#stone", "uv": [ 8.0, 10.0, 8.5, 12.0 ] },
+										"west": { "texture": "#stone", "uv": [ 6.5, 10.0, 7.0, 12.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro36",
+									"from": [ 8.6, 19.1, 5.0 ],
+									"to": [ 9.2, 21.4, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.1, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 15.0, 0.5, 15.5, 2.5 ] },
+										"east": { "texture": "#stone", "uv": [ 5.5, 0.5, 6.0, 2.5 ] },
+										"south": { "texture": "#stone", "uv": [ 6.5, 4.5, 7.0, 6.5 ] },
+										"west": { "texture": "#stone", "uv": [ 12.5, 11.0, 13.0, 13.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro37",
+									"from": [ 7.1, 19.1, 5.2 ],
+									"to": [ 8.8, 21.4, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.1, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 11.0, 10.5, 12.5, 12.5 ] },
+										"east": { "texture": "#stone", "uv": [ 11.5, 8.5, 12.0, 10.5 ] },
+										"south": { "texture": "#stone", "uv": [ 10.0, 12.5, 11.5, 14.5 ] },
+										"west": { "texture": "#stone", "uv": [ 4.5, 12.0, 5.0, 14.0 ] },
+										"up": { "texture": "#stone", "uv": [ 14.0, 6.0, 15.5, 6.5 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "HibukuroNE",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.0, 0.0, 0.0 ],
+							"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+							"rotationY": -45.0,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "Hibukuro38",
+									"from": [ 6.9, 18.0, 5.0 ],
+									"to": [ 9.1, 19.1, 5.4 ],
+									"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 9.5, 10.5, 11.5, 11.5 ] },
+										"east": { "texture": "#stone", "uv": [ 1.0, 11.0, 1.5, 12.0 ] },
+										"south": { "texture": "#stone", "uv": [ 5.5, 6.0, 7.5, 7.0 ] },
+										"west": { "texture": "#stone", "uv": [ 9.0, 10.0, 9.5, 11.0 ] },
+										"up": { "texture": "#stone", "uv": [ 12.0, 1.0, 14.0, 1.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro39",
+									"from": [ 6.9, 21.4, 5.0 ],
+									"to": [ 9.1, 22.5, 5.4 ],
+									"rotationOrigin": [ 8.0, 21.4, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 8.0, 13.5, 10.0, 14.5 ] },
+										"east": { "texture": "#stone", "uv": [ 11.5, 6.5, 12.0, 7.5 ] },
+										"south": { "texture": "#stone", "uv": [ 1.5, 12.5, 3.5, 13.5 ] },
+										"west": { "texture": "#stone", "uv": [ 8.0, 6.5, 8.5, 7.5 ] },
+										"up": { "texture": "#stone", "uv": [ 9.0, 4.0, 11.0, 4.5 ] },
+										"down": { "texture": "#stone", "uv": [ 10.0, 4.0, 12.0, 4.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								},
+								{
+									"name": "Hibukuro40",
+									"from": [ 6.8, 19.1, 5.0 ],
+									"to": [ 7.3, 21.4, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.1, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 12.0, 2.0, 12.5, 4.0 ] },
+										"east": { "texture": "#stone", "uv": [ 2.5, 0.0, 3.0, 2.0 ] },
+										"south": { "texture": "#stone", "uv": [ 10.0, 13.5, 10.5, 15.5 ] },
+										"west": { "texture": "#stone", "uv": [ 8.5, 5.5, 9.0, 7.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro41",
+									"from": [ 8.6, 19.1, 5.0 ],
+									"to": [ 9.2, 21.4, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.1, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 14.0, 12.5, 14.5, 14.5 ] },
+										"east": { "texture": "#stone", "uv": [ 4.0, 3.5, 4.5, 5.5 ] },
+										"south": { "texture": "#stone", "uv": [ 15.0, 0.0, 15.5, 2.0 ] },
+										"west": { "texture": "#stone", "uv": [ 3.5, 10.0, 4.0, 12.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro42",
+									"from": [ 7.1, 19.1, 5.2 ],
+									"to": [ 8.8, 21.4, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.1, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 9.0, 8.5, 10.5, 10.5 ] },
+										"east": { "texture": "#stone", "uv": [ 5.5, 9.0, 6.0, 11.0 ] },
+										"south": { "texture": "#stone", "uv": [ 14.0, 4.0, 15.5, 6.0 ] },
+										"west": { "texture": "#stone", "uv": [ 9.0, 1.0, 9.5, 3.0 ] },
+										"up": { "texture": "#stone", "uv": [ 9.5, 5.0, 11.0, 5.5 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "HibukuroSW",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.0, 0.0, 0.0 ],
+							"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+							"rotationY": 135.0,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "Hibukuro43",
+									"from": [ 6.9, 18.0, 5.0 ],
+									"to": [ 9.1, 19.1, 5.4 ],
+									"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 9.5, 0.5, 11.5, 1.5 ] },
+										"east": { "texture": "#stone", "uv": [ 13.0, 1.0, 13.5, 2.0 ] },
+										"south": { "texture": "#stone", "uv": [ 1.0, 6.0, 3.0, 7.0 ] },
+										"west": { "texture": "#stone", "uv": [ 10.5, 11.0, 11.0, 12.0 ] },
+										"up": { "texture": "#stone", "uv": [ 2.5, 14.5, 4.5, 15.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro44",
+									"from": [ 6.9, 21.4, 5.0 ],
+									"to": [ 9.1, 22.5, 5.4 ],
+									"rotationOrigin": [ 8.0, 21.4, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 4.5, 7.5, 6.5, 8.5 ] },
+										"east": { "texture": "#stone", "uv": [ 12.5, 11.5, 13.0, 12.5 ] },
+										"south": { "texture": "#stone", "uv": [ 9.5, 0.0, 11.5, 1.0 ] },
+										"west": { "texture": "#stone", "uv": [ 4.5, 12.5, 5.0, 13.5 ] },
+										"up": { "texture": "#stone", "uv": [ 3.0, 9.0, 5.0, 9.5 ] },
+										"down": { "texture": "#stone", "uv": [ 0.5, 15.0, 2.5, 15.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								},
+								{
+									"name": "Hibukuro45",
+									"from": [ 6.8, 19.1, 5.0 ],
+									"to": [ 7.3, 21.4, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.1, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 13.0, 11.0, 13.5, 13.0 ] },
+										"east": { "texture": "#stone", "uv": [ 7.0, 5.5, 7.5, 7.5 ] },
+										"south": { "texture": "#stone", "uv": [ 3.0, 11.5, 3.5, 13.5 ] },
+										"west": { "texture": "#stone", "uv": [ 9.0, 7.5, 9.5, 9.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro46",
+									"from": [ 8.6, 19.1, 5.0 ],
+									"to": [ 9.2, 21.4, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.1, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 9.0, 8.5, 9.5, 10.5 ] },
+										"east": { "texture": "#stone", "uv": [ 15.0, 8.5, 15.5, 10.5 ] },
+										"south": { "texture": "#stone", "uv": [ 7.0, 10.0, 7.5, 12.0 ] },
+										"west": { "texture": "#stone", "uv": [ 6.0, 2.5, 6.5, 4.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro47",
+									"from": [ 7.1, 19.1, 5.2 ],
+									"to": [ 8.8, 21.4, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.1, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 8.5, 5.0, 10.0, 7.0 ] },
+										"east": { "texture": "#stone", "uv": [ 0.5, 11.0, 1.0, 13.0 ] },
+										"south": { "texture": "#stone", "uv": [ 0.5, 6.0, 2.0, 8.0 ] },
+										"west": { "texture": "#stone", "uv": [ 4.5, 13.5, 5.0, 15.5 ] },
+										"up": { "texture": "#stone", "uv": [ 14.0, 4.0, 15.5, 4.5 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "HibukuroSE",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.0, 0.0, 0.0 ],
+							"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+							"rotationY": -135.0,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "Hibukuro48",
+									"from": [ 6.9, 18.0, 5.0 ],
+									"to": [ 9.1, 19.1, 5.4 ],
+									"rotationOrigin": [ 8.0, 18.0, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 7.0, 3.5, 9.0, 4.5 ] },
+										"east": { "texture": "#stone", "uv": [ 6.5, 11.0, 7.0, 12.0 ] },
+										"south": { "texture": "#stone", "uv": [ 12.5, 8.0, 14.5, 9.0 ] },
+										"west": { "texture": "#stone", "uv": [ 8.5, 8.0, 9.0, 9.0 ] },
+										"up": { "texture": "#stone", "uv": [ 10.5, 1.5, 12.5, 2.0 ] }
+									}
+								},
+								{
+									"name": "Hibukuro49",
+									"from": [ 6.9, 21.4, 5.0 ],
+									"to": [ 9.1, 22.5, 5.4 ],
+									"rotationOrigin": [ 8.0, 21.4, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 8.0, 2.0, 10.0, 3.0 ] },
+										"east": { "texture": "#stone", "uv": [ 5.5, 5.5, 6.0, 6.5 ] },
+										"south": { "texture": "#stone", "uv": [ 10.0, 2.0, 12.0, 3.0 ] },
+										"west": { "texture": "#stone", "uv": [ 10.5, 14.0, 11.0, 15.0 ] },
+										"up": { "texture": "#stone", "uv": [ 9.0, 10.0, 11.0, 10.5 ] },
+										"down": { "texture": "#stone", "uv": [ 12.0, 6.0, 14.0, 6.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								},
+								{
+									"name": "Hibukuro50",
+									"from": [ 6.8, 19.1, 5.0 ],
+									"to": [ 7.3, 21.4, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.1, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 7.5, 1.5, 8.0, 3.5 ] },
+										"east": { "texture": "#stone", "uv": [ 4.0, 1.0, 4.5, 3.0 ] },
+										"south": { "texture": "#stone", "uv": [ 6.0, 12.0, 6.5, 14.0 ] },
+										"west": { "texture": "#stone", "uv": [ 15.0, 10.5, 15.5, 12.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro51",
+									"from": [ 8.6, 19.1, 5.0 ],
+									"to": [ 9.2, 21.4, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.1, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 6.0, 10.5, 6.5, 12.5 ] },
+										"east": { "texture": "#stone", "uv": [ 7.5, 10.0, 8.0, 12.0 ] },
+										"south": { "texture": "#stone", "uv": [ 13.0, 6.5, 13.5, 8.5 ] },
+										"west": { "texture": "#stone", "uv": [ 14.0, 8.5, 14.5, 10.5 ] }
+									}
+								},
+								{
+									"name": "Hibukuro52",
+									"from": [ 7.1, 19.1, 5.2 ],
+									"to": [ 8.8, 21.4, 5.4 ],
+									"rotationOrigin": [ 8.0, 19.1, 8.0 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 8.0, 10.0, 9.5, 12.0 ] },
+										"east": { "texture": "#stone", "uv": [ 13.5, 6.5, 14.0, 8.5 ] },
+										"south": { "texture": "#stone", "uv": [ 3.0, 11.0, 4.5, 13.0 ] },
+										"west": { "texture": "#stone", "uv": [ 3.0, 10.5, 3.5, 12.5 ] },
+										"up": { "texture": "#stone", "uv": [ 5.0, 5.0, 6.5, 5.5 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

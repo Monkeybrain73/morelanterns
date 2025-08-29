@@ -1,0 +1,109 @@
+{
+	"code": "floatinglantern",
+	"class": "MoreLanterns.BlockFloatingLantern",
+	"entityclass": "MoreLanterns.BeFloatingLantern",
+	"attributes": {
+		"renderSides": "nsew",
+		"baseShape": "block/floatinglantern/{design}"
+	},
+	"liquidSelectable": true,
+	"behaviors": [
+		{ "name": "MoreLanterns.BlockName",
+			"properties": { "parts": ["apelanterns:floatinglantern", " (", "apelanterns:floatinglantern-{design}", ")", " (", "apelanterns:lanterncolor-{colour}", ")"] }
+		},
+		{ "name": "RightClickPickup", "properties": { "dropsPickupMode": true } }
+	],
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"creativeinventory": { "general": [ "*-ns" ], "decorative": ["*-ns"], "apelanterns": [ "*-ns" ]	},
+	"variantgroups": [
+		{ "code": "design", "states": [ "floating1", "floating2", "floating3", "floating4" ] },
+		{ "code": "colour", "states": [ "plain","blue","red","green","yellow","orange","brown","purple","pink","cyan" ] },
+		{ "code": "orientation", "states": [ "ns", "we" ] }
+	],
+	"drops": [
+		{ "type": "block", "code": "apelanterns:floatinglantern-{design}-{colour}-ns", "quantity": { "avg": 1 } }
+	],
+	"shapebytype": {
+		"*-ns": { "base": "block/floatinglantern/{design}", "rotateY": 90 },
+		"*-we": { "base": "block/floatinglantern/{design}", "rotateY": 0 }
+	},
+	"texturesByType": {
+		"*-floating2-*": {
+		"wood": { "base": "game:block/wood/debarked/oak" },
+		"paper": { "base": "game:block/cloth/wool/white1" }
+		},
+		"*": {
+		"wood": { "base": "game:block/wood/debarked/oak" },
+		"paper": { "base": "game:block/cloth/paper/blank-small" }
+		}
+	},
+	"texturesinventory": {
+		"paper": { "base": "block/paper/{colour}" }
+	},
+	"lightHsvByType": {
+		"*-blue-*": [43, 6, 12],
+		"*-red-*": [0, 6, 12],
+		"*-green-*": [21, 6, 12],
+		"*-yellow-*": [10, 6, 12],
+		"*-orange-*": [5, 7, 12],
+		"*-brown-*": [2, 5, 12],
+		"*-purple-*": [50, 6, 12],
+		"*-pink-*": [54, 6, 12],
+		"*-cyan-*": [32, 5, 12],
+		"*-plain-*": [7,7,12]
+	},
+	"blockmaterial": "Wood",
+	"replaceable": 550,
+	"resistance": 2,
+	"lightAbsorption": 0,
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": -0.05, "z": 0 },
+		"rotation": { "x": -90, "y": 73, "z": 174 },
+		"origin": { "x": 0.34, "y": -0.4, "z": 1.47 },
+		"scale": 1.4
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": -45, "z": 0 },
+		"origin": { "x": 0.5, "y": -0.1, "z": 0.5 },
+		"scale": 4.19
+	},
+	"tpHandTransformByType": {
+		"*-floating3-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -77, "y": 28, "z": -96 },
+			"origin": { "x": -0.08, "y": 0.22, "z": -0.03 },
+			"scale": 0.54
+		},
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -73, "y": 28, "z": -96 },
+			"origin": { "x": 0, "y": 0.25, "z": 0 },
+			"scale": 0.54
+		}
+	},
+	"guiTransform": {
+		"rotation": { "x": -22.6, "y": 40, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.325, "z": 0.5 },
+		"scale": 1.05
+	},
+	"collisionboxes": [
+		{ "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0, "z2": 1 },
+		{ "x1": 0, "y1": -0.3, "z1": 0, "x2": 1, "y2": 0, "z2": 1 }
+	],
+	"selectionBox": {
+		"x1": 0.125, "y1": -0.1875, "z1": 0.125, "x2": 0.875, "y2": 0.5875, "z2": 0.875 },
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"materialDensity": 100
+}   

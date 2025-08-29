@@ -1,0 +1,151 @@
+{
+	"editor": {
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"carving": "apelanterns:block/overlay/oribe-carving-03",
+		"symbol": "apelanterns:block/overlay/sao-symbol-02",
+		"stone": "game:block/stone/rock/granite1"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Base",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Setsu",
+							"from": [ 5.0, 0.0, 5.0 ],
+							"to": [ 11.0, 8.0, 11.0 ],
+							"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+							"faces": {
+								"north": { "texture": "#stone", "uv": [ 0.0, 0.0, 6.0, 8.0 ] },
+								"east": { "texture": "#stone", "uv": [ 0.0, 0.0, 6.0, 8.0 ] },
+								"south": { "texture": "#stone", "uv": [ 0.0, 0.0, 6.0, 8.0 ] },
+								"west": { "texture": "#stone", "uv": [ 0.0, 0.0, 6.0, 8.0 ] },
+								"up": { "texture": "#stone", "uv": [ 0.0, 0.0, 6.0, 6.0 ] },
+								"down": { "texture": "#stone", "uv": [ 0.0, 0.0, 6.0, 6.0 ] }
+							}
+						},
+						{
+							"name": "Setsu2",
+							"from": [ 4.5, 8.0, 5.0 ],
+							"to": [ 11.5, 8.5, 11.0 ],
+							"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+							"faces": {
+								"north": { "texture": "#stone", "uv": [ 7.5, 1.0, 14.5, 1.5 ] },
+								"east": { "texture": "#stone", "uv": [ 8.5, 0.5, 14.5, 1.0 ] },
+								"south": { "texture": "#stone", "uv": [ 5.5, 1.5, 12.5, 2.0 ] },
+								"west": { "texture": "#stone", "uv": [ 3.0, 1.5, 9.0, 2.0 ] },
+								"up": { "texture": "#stone", "uv": [ 0.0, 0.0, 7.0, 6.0 ] },
+								"down": { "texture": "#stone", "uv": [ 0.0, 0.0, 7.0, 6.0 ] }
+							}
+						},
+						{
+							"name": "Setsu3",
+							"from": [ 4.2, 8.5, 5.0 ],
+							"to": [ 11.8, 9.0, 11.0 ],
+							"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+							"faces": {
+								"north": { "texture": "#stone", "uv": [ 1.5, 1.0, 9.0, 1.5 ] },
+								"east": { "texture": "#stone", "uv": [ 5.5, 0.5, 11.5, 1.0 ] },
+								"south": { "texture": "#stone", "uv": [ 4.5, 1.5, 12.0, 2.0 ] },
+								"west": { "texture": "#stone", "uv": [ 3.5, 1.0, 9.5, 1.5 ] },
+								"up": { "texture": "#stone", "uv": [ 0.0, 0.0, 7.5, 6.0 ] },
+								"down": { "texture": "#stone", "uv": [ 0.0, 0.0, 7.5, 6.0 ] }
+							}
+						},
+						{
+							"name": "Sao",
+							"from": [ 4.0, 9.0, 5.0 ],
+							"to": [ 12.0, 13.5, 11.0 ],
+							"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+							"faces": {
+								"north": { "texture": "#stone", "uv": [ 7.5, 0.5, 15.5, 5.0 ] },
+								"east": { "texture": "#stone", "uv": [ 1.5, 2.0, 7.5, 6.5 ] },
+								"south": { "texture": "#stone", "uv": [ 5.0, 0.5, 13.0, 5.0 ] },
+								"west": { "texture": "#stone", "uv": [ 8.5, 1.5, 14.5, 6.0 ] },
+								"up": { "texture": "#stone", "uv": [ 5.5, 0.5, 13.5, 6.5 ] },
+								"down": { "texture": "#stone", "uv": [ 3.5, 5.0, 11.5, 11.0 ] }
+							}
+						},
+						{
+							"name": "Setsu5",
+							"from": [ 4.2, 13.5, 5.0 ],
+							"to": [ 11.8, 14.0, 11.0 ],
+							"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+							"faces": {
+								"north": { "texture": "#stone", "uv": [ 4.5, 1.0, 12.0, 1.5 ] },
+								"east": { "texture": "#stone", "uv": [ 3.5, 3.0, 9.5, 3.5 ] },
+								"south": { "texture": "#stone", "uv": [ 5.5, 4.5, 13.0, 5.0 ] },
+								"west": { "texture": "#stone", "uv": [ 7.5, 2.0, 13.5, 2.5 ] },
+								"up": { "texture": "#stone", "uv": [ 0.0, 0.0, 7.5, 6.0 ] }
+							}
+						},
+						{
+							"name": "Setsu6",
+							"from": [ 4.5, 14.0, 5.0 ],
+							"to": [ 11.5, 14.5, 11.0 ],
+							"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+							"faces": {
+								"north": { "texture": "#stone", "uv": [ 5.0, 3.0, 12.0, 3.5 ] },
+								"east": { "texture": "#stone", "uv": [ 2.0, 0.5, 8.0, 1.0 ] },
+								"south": { "texture": "#stone", "uv": [ 4.0, 1.5, 11.0, 2.0 ] },
+								"west": { "texture": "#stone", "uv": [ 3.5, 0.5, 9.5, 1.0 ] },
+								"up": { "texture": "#stone", "uv": [ 0.0, 0.0, 7.0, 6.0 ] }
+							}
+						},
+						{
+							"name": "SaoSymbolS",
+							"from": [ 6.0, 9.5, 11.01 ],
+							"to": [ 10.0, 12.5, 11.01 ],
+							"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+							"faces": {
+								"south": { "texture": "#symbol", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "SaoSymbolN",
+							"from": [ 6.0, 9.5, 4.99 ],
+							"to": [ 10.0, 12.5, 4.99 ],
+							"rotationOrigin": [ 8.0, 0.0, 2.0 ],
+							"faces": {
+								"north": { "texture": "#symbol", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "SetsuCarvingS",
+							"from": [ 6.0, 0.0, 11.01 ],
+							"to": [ 10.0, 6.0, 11.01 ],
+							"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+							"faces": {
+								"south": { "texture": "#carving", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "SetsuCarvingN",
+							"from": [ 6.0, 0.0, 4.99 ],
+							"to": [ 10.0, 6.0, 4.99 ],
+							"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+							"faces": {
+								"north": { "texture": "#carving", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,147 @@
+{
+	"game:tabname-apelanterns": "More Lanterns",
+	"game:tabname-apepaperlanterns": "Paper Lanterns",
+	"game:tabname-apefloatinglanterns": "Floating Lanterns",
+	"game:tabname-apemetallanterns": "Metal Lanterns",
+	"game:tabname-apestonelanterns": "Stone Lanterns",
+
+	"lanterncolor-plain": "Plain",
+	"lanterncolor-red": "Red",
+	"lanterncolor-green": "Green",
+	"lanterncolor-blue": "Blue",
+	"lanterncolor-yellow": "Yellow",
+	"lanterncolor-orange": "Orange",
+	"lanterncolor-brown": "Brown",
+	"lanterncolor-purple": "Purple",
+	"lanterncolor-pink": "Pink",
+	"lanterncolor-cyan": "Cyan",
+	"lanterncolor-woad": "Woad blue",
+
+	"paperlantern-on": "Lit",
+	"paperlantern-off": "Unlit",
+	"paperlantern-basic": "Paper lantern",
+	"paperlantern-chinese": "Decorated chinese paper lantern",
+	"paperlantern-chinese2": "Chinese paper lantern",
+	"paperlantern-medieval1small": "Medieval style lantern",
+	"block-apepaperlantern-off-*": "Unlit",
+	"block-apepaperlantern-on-*": "Lit",
+
+
+	"block-apemetallantern-on-modern1-plain-*": "Modern style lantern (Lit)",
+	"block-apemetallantern-on-modern2-plain-*": "Modern style, tall lantern (Lit)",
+	"block-apemetallantern-on-gothic1-plain-*": "Gothic style lantern (Lit)",
+	"block-apemetallantern-on-medieval2-plain-*": "Medieval style lantern (Lit)",
+	"block-apemetallantern-on-medieval3-plain-*": "Medieval style lantern (Lit)",
+	"block-apemetallantern-on-medieval4-plain-*": "Medieval style lantern (Lit)",
+	"block-apemetallantern-on-medieval6-plain-*": "Medieval style lantern (Lit)",
+	"block-apemetallantern-off-modern1-plain-*": "Modern style lantern (Unlit)",
+	"block-apemetallantern-off-modern2-plain-*": "Modern style, tall lantern (Unlit)",
+	"block-apemetallantern-off-gothic1-plain-*": "Gothic style lantern (Unlit)",
+	"block-apemetallantern-off-medieval2-plain-*": "Medieval style lantern (Unlit)",
+	"block-apemetallantern-off-medieval3-plain-*": "Medieval style lantern (Unlit)",
+	"block-apemetallantern-off-medieval4-plain-*": "Medieval style lantern (Unlit)",
+	"block-apemetallantern-off-medieval6-plain-*": "Medieval style lantern (Unlit)",
+
+	"item-colouredpaper-parchment-blue": "Parchment (Blue)",
+	"item-colouredpaper-parchment-red": "Parchment (Red)",
+	"item-colouredpaper-parchment-green": "Parchment (Green)",
+	"item-colouredpaper-parchment-yellow": "Parchment (Yellow)",
+	"item-colouredpaper-parchment-orange": "Parchment (Orange)",
+	"item-colouredpaper-parchment-brown": "Parchment (Brown)",
+	"item-colouredpaper-parchment-purple": "Parchment (Purple)",
+	"item-colouredpaper-parchment-pink": "Parchment (Pink)",
+	"item-colouredpaper-parchment-cyan": "Parchment (Cyan)",
+	"item-colouredpaper-parchment-woad": "Parchment (Woad blue)",
+
+	"lanternparts-kiso": "Lantern base plate",
+	"lanternparts-sao": "Lantern pillar",
+	"lanternparts-ashi": "Lantern base with legs",
+	"lanternparts-chuudai": "Lantern firebox platform",
+	"lanternparts-hibukuro": "Lantern firebox",
+	"lanternparts-kasa": "Lantern roof",
+	"lanternparts-houju": "Lantern roof jewel",
+
+	"block-lanternparts-*-kiso-*": "Lantern base plate",
+	"block-lanternparts-*-sao-*": "Lantern pillar",
+	"block-lanternparts-*-ashi-*": "Lantern base with legs",
+	"block-lanternparts-*-chuudai-*": "Lantern firebox platform",
+	"block-lanternparts-*-hibukuro-*": "Lantern firebox",
+	"block-lanternparts-*-kasa-*": "Lantern roof",
+	"block-lanternparts-*-houju-*": "Lantern roof jewel",
+
+
+	"lanternparts-style-yukimi": "Yukimi",
+	"lanternparts-style-maru": "Kodai Maru Yukimi",
+	"lanternparts-style-ikekomi": "Ikekomi",
+	"lanternparts-style-daitsuki": "Daitsuki",
+
+
+	"stonelantern-yukimi-doro": "Yukimi Dōrō",
+	"stonelantern-kodai-maru-yukimi": "Kodai Maru Yukimi Dōrō",
+	"stonelantern-ikekomi-gata-oribe": "Oribe Ikekomi Dōrō",
+	"stonelantern-okunoin-daitsuki": "Okunoin Daitsuki Dōrō",
+
+
+	"apestonelantern-clean": "new",
+	"apestonelantern-weathered": "weathered",
+	"apestonelantern-cracked": "cracked",
+	"apestonelantern-mossy": "mossy",
+	"apestonelantern-rust": "rusty",
+
+	"block-apestonelantern-*-*-*-clean": "new",
+	"block-apestonelantern-*-*-*-weathered": "weathered",
+	"block-apestonelantern-*-*-*-cracked": "cracked",
+	"block-apestonelantern-*-*-*-mossy": "mossy",
+	"block-apestonelantern-*-*-*-rust": "rusty",
+
+
+	"game:apestonelantern-handbook-help-title-yukimi-doro": "Yukimi Dōrō",
+	"game:apestonelantern-handbook-help-title-kodai-maru-yukimi": "Kodai Maru Yukimi Dōrō",
+	"game:apestonelantern-handbook-help-title-ikekomi-gata-oribe": "Ikekomi Dōrō",
+	"game:apestonelantern-handbook-help-title-daitsuki": "Daitsuki Dōrō",
+
+	"game:apestonelantern-handbook-help-text-yukimi": "<br>Traditional Japanese garden lantern, often called 'snow-viewing lanterns'. These low, squat lanterns have wide, flat tops designed to collect snow. Snow lanterns are so named as the generous diameter of the top lid protects the fire box underneath. This attractive granite lantern is most often used in oriental water basin arrangements and needs to be chosen with care to match the proportions of the water basin used.",
+	"game:apestonelantern-handbook-help-text-oribe": "<br>Traditional Japanese garden lantern, also known as buried lanterns. Oribe-Gata is the most famous design of Ikekomi-Gata. Distinctive shape with a wide, flared top and a narrower base, often decorated with geometric patterns or floral motifs. Designed to be embedded or inserted into the ground.",
+	"game:apestonelantern-handbook-help-text-daitsuki": "<br>Traditional Japanese temple lantern. 'Okunoin' refers to the sacred area deep within a shrine, where important or hidden Buddhist statues are enshrined. Lanterns placed in these secluded areas, are called Okunoin-style lanterns. Distinctive shape with a wide, flared top with 'warabites' and a decorated base, often decorated with geometric patterns or floral motifs.",
+
+	"block-handbooktitle-apestonelantern-yukimi-doro-*": "Yukimi Dōrō",
+	"block-handbooktitle-apestonelantern-kodai-maru-yukimi-*": "Kodai Maru Yukimi Dōrō",
+	"block-handbooktitle-apestonelantern-ikekomi-gata-oribe-*": "Ikekomi Dōrō",
+	"block-handbooktitle-apestonelantern-okunoin-daitsuki-*": "Yukimi Dōrō",
+	"block-handbooktext-apestonelantern-yukimi-doro-*": "<br>Traditional Japanese garden lantern, often called 'snow-viewing lanterns'. These low, squat lanterns have wide, flat tops designed to collect snow. Snow lanterns are so named as the generous diameter of the top lid protects the fire box underneath. This attractive granite lantern is most often used in oriental water basin arrangements and needs to be chosen with care to match the proportions of the water basin used.",
+	"block-handbooktext-apestonelantern-kodai-maru-yukimi-*": "<br>Traditional Japanese garden lantern, often called 'snow-viewing lanterns'. These low, squat lanterns have wide, flat tops designed to collect snow. Snow lanterns are so named as the generous diameter of the top lid protects the fire box underneath. This attractive granite lantern is most often used in oriental water basin arrangements and needs to be chosen with care to match the proportions of the water basin used.",
+	"block-handbooktext-apestonelantern-ikekomi-gata-oribe-*": "<br>Traditional Japanese garden lantern, also known as buried lanterns. Oribe-Gata is the most famous design of Ikekomi-Gata. Distinctive shape with a wide, flared top and a narrower base, often decorated with geometric patterns or floral motifs. Designed to be embedded or inserted into the ground.",
+	"block-handbooktext-apestonelantern-okunoin-daitsuki-*": "<br>Traditional Japanese temple lantern. 'Okunoin' refers to the sacred area deep within a shrine, where important or hidden Buddhist statues are enshrined. Lanterns placed in these secluded areas, are called Okunoin-style lanterns. Distinctive shape with a wide, flared top with 'warabites' and a decorated base, often decorated with geometric patterns or floral motifs.",
+
+
+	"blockhelp-behavior-dimmable-ctrl": "Dim the light",
+	"dimmable-help": "Ctrl + right click to dim the light",
+	"rightclickpickup-help": "Right click to pick up",
+
+	"block-lightlevel": "Lightlevel:",
+	"lightl1": "Bright",
+	"lightl2": "Normal",
+	"lightl3": "Dim",
+	"lightl4": "Moody",
+	
+
+	"block-floatinglantern-*": "Floating lantern",
+	"blockdesc-floatinglantern-*": "Place this directly on water",
+	"floatinglantern": "Floating lantern",
+	"floatinglantern-floating1": "Square",
+	"floatinglantern-floating2": "Octagon",
+	"floatinglantern-floating3": "Boat",
+	"floatinglantern-floating4": "Star",
+
+
+	"block-apepaperitem-chubs-*": "Chubbs",
+	"block-apepaperitem-saxon-*": "Saxon",
+	"game:apepaperitem-handbook-help-title-chubs": "Chubbs",
+	"game:apepaperitem-handbook-help-title-saxon": "Saxon",
+	"game:apepaperitem-handbook-help-text-chubs": "<br>Needs lots of cuddles, snackies and booping on the snuut.<br>Will gladly rest in your hands, or on top of your keyboard.<br>Demands total world domination, fried chicken and a clean litterbox.",
+	"game:apepaperitem-handbook-help-text-saxon": "<br><strong><i>The Old Man</i></strong><br>Overhead and ruler of the household.<br>",
+	
+	"game:item-dye-cyan": "Cyan dye",
+	"game:incontainer-item-dye-cyan": "Cyan dye"
+
+}

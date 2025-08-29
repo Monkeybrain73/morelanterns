@@ -1,0 +1,502 @@
+[
+{
+	"ingredientPattern": "W_W,PCP,W_W",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"P": { "type": "item", "code": "game:paper-parchment", "quantity": 2 },
+		"C": { "type": "item", "code": "game:candle", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-plain-up"  }
+},
+{
+	"ingredientPattern": "W_W,PTP,W_W",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"P": { "type": "item", "code": "game:paper-parchment", "quantity": 2 },
+		"T": { "type": "block", "code": "game:torch-*-lit-up", "allowedVariants": ["crude","basic","cloth"] , "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-plain-up"  }
+},
+{
+	"ingredientPattern": "WPW,PTP,WPW",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"P": { "type": "item", "code": "apelanterns:colouredpaper-parchment-*", "name": "colour", "quantity": 1 },
+		"T": { "type": "block", "code": "game:torch-*-lit-up", "allowedVariants": ["crude","basic","cloth"] , "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-{colour}-up" }
+},
+{
+	"ingredientPattern": "WPW,PCP,WPW",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"P": { "type": "item", "code": "apelanterns:colouredpaper-parchment-*", "name": "colour", "quantity": 1 },
+		"C": { "type": "item", "code": "game:candle", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-{colour}-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-basic-plain-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-basic-plain-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-basic-plain-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-plain-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-basic-blue-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-basic-blue-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-basic-blue-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-blue-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-basic-red-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-basic-red-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-basic-red-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-red-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-basic-green-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-basic-green-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-basic-green-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-green-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-basic-yellow-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-basic-yellow-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-basic-yellow-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-yellow-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-basic-orange-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-basic-orange-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-basic-orange-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-orange-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-basic-purple-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-basic-purple-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-basic-purple-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-purple-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-basic-pink-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-basic-pink-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-basic-pink-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-pink-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-basic-cyan-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-basic-cyan-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-basic-cyan-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-cyan-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-basic-woad-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-basic-woad-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-basic-woad-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-basic-woad-up" }
+},
+{
+	"ingredientPattern": "_W_,RTR,_W_",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"R": { "type": "item", "code": "apelanterns:colouredpaper-parchment-red", "quantity": 2 },
+		"T": { "type": "block", "code": "game:torch-*-lit-up", "allowedVariants": ["crude","basic","cloth"] , "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-chinese-plain-up" }
+},
+{
+	"ingredientPattern": "RWR,BTB,RWR",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"R": { "type": "item", "code": "apelanterns:colouredpaper-parchment-red", "quantity": 1 },
+		"B": { "type": "item", "code": "apelanterns:colouredpaper-parchment-blue", "quantity": 1 },
+		"T": { "type": "block", "code": "game:torch-*-lit-up", "allowedVariants": ["crude","basic","cloth"] , "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-chinese-blue-up" }
+},
+{
+	"ingredientPattern": "RWR,RTR,RWR",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"R": { "type": "item", "code": "apelanterns:colouredpaper-parchment-red", "quantity": 1 },
+		"T": { "type": "block", "code": "game:torch-*-lit-up", "allowedVariants": ["crude","basic","cloth"] , "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-chinese-red-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-chinese-plain-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-chinese-plain-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-chinese-plain-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-chinese-plain-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-chinese-blue-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-chinese-blue-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-chinese-blue-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-chinese-blue-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-chinese-red-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-chinese-red-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-chinese-red-up" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-chinese-red-up" }
+},
+{
+	"ingredientPattern": "_W_,RTR,RWR",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"R": { "type": "item", "code": "game:paper-parchment", "quantity": 2 },
+		"T": { "type": "block", "code": "game:torch-*-lit-up", "allowedVariants": ["crude","basic","cloth"] , "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-chinese2-plain-up" }
+},
+{
+	"ingredientPattern": "_W_,RTR,RWR",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"R": { "type": "item", "code": "game:paper-parchment", "quantity": 2 },
+		"T": { "type": "item", "code": "game:candle", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-chinese2-plain-up" }
+},
+{
+	"ingredientPattern": "_W_,RTR,RWR",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"R": { "type": "item", "code": "apelanterns:colouredpaper-parchment-*", "name": "color", "quantity": 2 },
+		"T": { "type": "block", "code": "game:torch-*-lit-up", "allowedVariants": ["crude","basic","cloth"] , "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-chinese2-{color}-up" }
+},
+{
+	"ingredientPattern": "_W_,RTR,RWR",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"R": { "type": "item", "code": "apelanterns:colouredpaper-parchment-*", "name": "color", "quantity": 2 },
+		"T": { "type": "item", "code": "game:candle", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-chinese2-{color}-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-chinese2-*-up", "name": "color" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-chinese2-{color}-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-chinese2-*-up", "name": "color" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-chinese2-{color}-up" }
+},
+{
+	"ingredientPattern": "SWS,RTR,_W_",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"R": { "type": "item", "code": "game:paper-parchment", "quantity": 3 },
+		"T": { "type": "block", "code": "game:torch-*-lit-up", "allowedVariants": ["crude","basic","cloth"] , "quantity": 1 },
+		"S": { "type": "item", "code": "game:stick", "quantity": 3 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-medieval1small-plain-up" }
+},
+{
+	"ingredientPattern": "SWS,RTR,_W_",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"R": { "type": "item", "code": "game:paper-parchment", "quantity": 3 },
+		"T": { "type": "item", "code": "game:candle", "quantity": 1 },
+		"S": { "type": "item", "code": "game:stick", "quantity": 3 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-medieval1small-plain-up" }
+},
+{
+	"ingredientPattern": "_W_,RTR,SWS",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"R": { "type": "item", "code": "apelanterns:colouredpaper-parchment-*", "name": "color", "quantity": 3 },
+		"T": { "type": "block", "code": "game:torch-*-lit-up", "allowedVariants": ["crude","basic","cloth"] , "quantity": 1 },
+		"S": { "type": "item", "code": "game:stick", "quantity": 3 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-medieval1small-{color}-up" }
+},
+{
+	"ingredientPattern": "_W_,RTR,SWS",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"R": { "type": "item", "code": "apelanterns:colouredpaper-parchment-*", "name": "color", "quantity": 3 },
+		"T": { "type": "item", "code": "game:candle", "quantity": 1 },
+		"S": { "type": "item", "code": "game:stick", "quantity": 3 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperlantern-on-medieval1small-{color}-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-off-medieval1small-*-up", "name": "color" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-on-medieval1small-{color}-up" }
+},
+{
+	"ingredientPattern": "L",
+	"width": 1,
+	"height": 1,
+	"shapeless": true,
+	"recipeGroup": 1,
+	"ingredients": {
+		"L": { "type": "block", "code": "apepaperlantern-on-medieval1small-*-up", "name": "color" }
+	},
+	"output": { "type": "block", "code": "apepaperlantern-off-medieval1small-{color}-up" }
+}
+]

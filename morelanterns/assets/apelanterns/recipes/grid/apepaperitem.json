@@ -1,0 +1,32 @@
+[
+{
+	"ingredientPattern": "PRP,EME,SCO",
+	"ingredients": {
+		"E": { "type": "item", "code": "game:charcoal", "quantity": 1 },
+		"P": { "type": "item", "code": "colouredpaper-parchment-orange", "quantity": 2 },
+		"C": { "type": "item", "code": "game:cloth-white", "quantity": 1 },
+		"R": { "type": "item", "code": "game:rope", "quantity": 2 },
+		"M": { "type": "item", "code": "game:clothes-face-festivecat", "quantity": 1 },
+		"S": { "type": "block", "code": "game:seashell-seastar-cinnamon", "quantity": 1 },
+		"O": { "type": "block", "code": "game:flower-croton-medium-crimson-orange", "quantity": 10 },
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperitem-chubs-north"  }
+},
+{
+	"ingredientPattern": "PRP,EME,OCS",
+	"ingredients": {
+		"E": { "type": "item", "code": "game:charcoal", "quantity": 1 },
+		"P": { "type": "item", "code": "colouredpaper-parchment-orange", "quantity": 2 },
+		"C": { "type": "item", "code": "game:cloth-white", "quantity": 1 },
+		"R": { "type": "item", "code": "game:rope", "quantity": 2 },
+		"M": { "type": "item", "code": "game:clothes-face-festivecat", "quantity": 1 },
+		"S": { "type": "block", "code": "game:seashell-seastar-cinnamon", "quantity": 1 },
+		"O": { "type": "block", "code": "game:flower-croton-medium-crimson-orange", "quantity": 10 },
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "apepaperitem-saxon-north"  }
+},
+]

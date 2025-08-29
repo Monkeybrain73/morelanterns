@@ -1,0 +1,90 @@
+[
+{
+	"ingredientPattern": "P_P,PCP,WWW",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"P": { "type": "item", "code": "game:paper-parchment", "quantity": 1 },
+		"C": { "type": "item", "code": "game:candle", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "floatinglantern-floating1-plain-ns"  }
+},
+{
+	"ingredientPattern": "P_P,PCP,WWW",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"P": { "type": "item", "code": "apelanterns:colouredpaper-parchment-*", "name": "colour", "allowedVariants": [ "blue","red","green","yellow","orange","brown","purple","pink","cyan" ], "quantity": 1 },
+		"C": { "type": "item", "code": "game:candle", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "floatinglantern-floating1-{colour}-ns"  }
+},
+{
+	"ingredientPattern": "_P_,PCP,WPW",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"P": { "type": "item", "code": "game:paper-parchment", "quantity": 1 },
+		"C": { "type": "item", "code": "game:candle", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "floatinglantern-floating2-plain-ns"  }
+},
+{
+	"ingredientPattern": "_P_,PCP,WPW",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"P": { "type": "item", "code": "apelanterns:colouredpaper-parchment-*", "name": "colour", "allowedVariants": [ "blue","red","green","yellow","orange","brown","purple","pink","cyan" ], "quantity": 1 },
+		"C": { "type": "item", "code": "game:candle", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "floatinglantern-floating2-{colour}-ns"  }
+},
+{
+	"ingredientPattern": "P_P,WCW,WWW",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"P": { "type": "item", "code": "game:paper-parchment", "quantity": 2 },
+		"C": { "type": "item", "code": "game:candle", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "floatinglantern-floating3-plain-ns"  }
+},
+{
+	"ingredientPattern": "P_P,WCW,WWW",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"P": { "type": "item", "code": "apelanterns:colouredpaper-parchment-*", "name": "colour", "allowedVariants": [ "blue","red","green","yellow","orange","brown","purple","pink","cyan" ], "quantity": 2 },
+		"C": { "type": "item", "code": "game:candle", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "floatinglantern-floating3-{colour}-ns"  }
+},
+{
+	"ingredientPattern": "PCP,P_P,WWW",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"P": { "type": "item", "code": "game:paper-parchment", "quantity": 1 },
+		"C": { "type": "item", "code": "game:candle", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "floatinglantern-floating4-plain-ns"  }
+},
+{
+	"ingredientPattern": "PCP,P_P,WWW",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1 },
+		"P": { "type": "item", "code": "apelanterns:colouredpaper-parchment-*", "name": "colour", "allowedVariants": [ "blue","red","green","yellow","orange","brown","purple","pink","cyan" ], "quantity": 1 },
+		"C": { "type": "item", "code": "game:candle", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "floatinglantern-floating4-{colour}-ns"  }
+}
+]

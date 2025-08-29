@@ -1,0 +1,229 @@
+[
+	{
+		"name": "yukimi-ashi",
+		"ingredientPattern": "_A_,_B_,_DC",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-yukimi-ashi-{rocktype}" }
+	},
+	{
+		"name": "yukimi-hibukuro",
+		"ingredientPattern": "A_B,_D_,_C_",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-yukimi-hibukuro-{rocktype}" }
+	},
+	{
+		"name": "yukimi-kasa",
+		"ingredientPattern": "___,_C_,ADB",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-yukimi-kasa-{rocktype}" }
+	},
+	{
+		"name": "yukimi-houju",
+		"ingredientPattern": "ABD,___,___",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-yukimi-houju-{rocktype}" }
+	},
+	{
+		"name": "maru-hibukuro",
+		"ingredientPattern": "ACB,_D_",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-maru-hibukuro-{rocktype}" }
+	},
+	{
+		"name": "maru-kasa",
+		"ingredientPattern": "DC_,_A_,_B_",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-maru-kasa-{rocktype}" }
+	},
+	{
+		"name": "ikekomi-sao",
+		"ingredientPattern": "A_B,_C_,_D_",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-ikekomi-sao-{rocktype}" }
+	},
+	{
+		"name": "ikekomi-chuudai",
+		"ingredientPattern": "__A,_DC,__B",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-ikekomi-chuudai-{rocktype}" }
+	},
+	{
+		"name": "ikekomi-hibukuro",
+		"ingredientPattern": "C__,AD_,B__",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-ikekomi-hibukuro-{rocktype}" }
+	},
+	{
+		"name": "ikekomi-kasa",
+		"ingredientPattern": "DCA,_B_",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-ikekomi-kasa-{rocktype}" }
+	},
+	{
+		"name": "daitsuki-kiso",
+		"ingredientPattern": "A__,B__,C_D",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-kiso-{rocktype}" }
+	},
+	{
+		"name": "daitsuki-sao",
+		"ingredientPattern": "__A,_DC,_DB",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-sao-{rocktype}" }
+	},
+	{
+		"name": "daitsuki-chuudai",
+		"ingredientPattern": "E__,ADC,B__",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"E": { "type": "item", "code": "game:saw-*", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-chuudai-{rocktype}" }
+	},
+	{
+		"name": "daitsuki-hibukuro",
+		"ingredientPattern": "__C,AD_,B__",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-hibukuro-{rocktype}" }
+	},
+	{
+		"name": "daitsuki-kasa",
+		"ingredientPattern": "DCA,_BE",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"E": { "type": "item", "code": "game:saw-*", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-kasa-{rocktype}" }
+	},
+	{
+		"name": "daitsuki-houju",
+		"ingredientPattern": "BCA,ED_",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"E": { "type": "item", "code": "game:saw-*", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"output": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-houju-{rocktype}" }
+	}
+]

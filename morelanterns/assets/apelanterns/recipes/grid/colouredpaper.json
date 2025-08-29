@@ -1,0 +1,342 @@
+[
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:bowl-*-fired"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-blue", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-blue" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": {
+			"type": "block",
+			"code": "game:bowl-*-fired"
+		},
+		"F": {
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-red", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-red" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:bowl-*-fired"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-green", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-green" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:bowl-*-fired"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-yellow", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-yellow" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:bowl-*-fired"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-orange", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-orange" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:bowl-*-fired"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-brown", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-brown" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:bowl-*-fired"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-purple", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-purple" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:bowl-*-fired"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-pink", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-pink" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:bowl-*-fired"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-woad", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-woad" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:bowl-*-fired"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-cyan", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-cyan" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:woodbucket"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-blue", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-blue" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:woodbucket"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-red", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-red" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:woodbucket"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-green", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-green" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:woodbucket"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-yellow", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-yellow" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:woodbucket"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-orange", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-orange" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:woodbucket"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-brown", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-brown" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:woodbucket"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-purple", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-purple" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:woodbucket"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-pink", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-pink" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:woodbucket"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-woad", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-woad" }
+},
+{
+	"ingredientPattern": "WF",
+	"ingredients": {
+		"W": { 
+			"type": "block", 
+			"code": "game:woodbucket"
+		},
+		"F": { 
+			"type": "item",	"code": "game:paper-parchment" }
+	},
+	"width": 2,
+	"height": 1,
+	"attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "dye-cyan", "name": "colour" }, "requiresLitres": 0.1	} },
+	"name": "colour",
+	"shapeless": true,
+	"output": { "type": "item", "code": "colouredpaper-parchment-cyan" }
+}
+]

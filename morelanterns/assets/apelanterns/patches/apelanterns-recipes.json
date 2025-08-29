@@ -1,0 +1,18 @@
+[
+{
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+  "value": [ "cyan" ],
+    "file": "game:itemtypes/liquid/dye.json",
+    "side": "server"
+},
+{
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+  "value": [ "brown" ],
+    "file": "game:itemtypes/liquid/dye.json",
+    "side": "server"
+}
+]

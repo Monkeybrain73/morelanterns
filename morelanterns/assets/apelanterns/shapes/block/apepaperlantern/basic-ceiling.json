@@ -1,0 +1,141 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"candle": "game:block/candle",
+		"paperlantern_on": "game:block/paper/paperlantern_on",
+		"rope": "game:item/resource/rope"
+	},
+	"elements": [
+		{
+			"name": "lantern",
+			"from": [ 2.75, 0.75, 2.75 ],
+			"to": [ 13.25, 11.25, 13.25 ],
+			"renderPass": 0,
+			"faces": {
+				"north": { "texture": "#paperlantern_on", "uv": [ 0.5, 0.5, 15.5, 15.5 ], "autoUv": false },
+				"east": { "texture": "#paperlantern_on", "uv": [ 0.5, 0.5, 15.5, 15.5 ], "autoUv": false },
+				"south": { "texture": "#paperlantern_on", "uv": [ 0.5, 0.5, 15.5, 15.5 ], "autoUv": false },
+				"west": { "texture": "#paperlantern_on", "uv": [ 0.5, 0.5, 15.5, 15.5 ], "autoUv": false },
+				"up": { "texture": "#paperlantern_on", "uv": [ 0.5, 0.5, 15.5, 15.5 ], "autoUv": false },
+				"down": { "texture": "#paperlantern_on", "uv": [ 0.5, 0.5, 15.5, 15.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "candle",
+					"from": [ 4.5, 0.0, 4.5 ],
+					"to": [ 6.0, 3.0, 6.0 ],
+					"rotationOrigin": [ 2.25, -1.5, 2.25 ],
+					"faces": {
+						"north": { "texture": "#candle", "uv": [ 0.0, 12.0, 2.0, 16.0 ], "autoUv": false },
+						"east": { "texture": "#candle", "uv": [ 2.0, 12.0, 4.0, 16.0 ], "autoUv": false },
+						"south": { "texture": "#candle", "uv": [ 4.0, 12.0, 6.0, 16.0 ], "autoUv": false },
+						"west": { "texture": "#candle", "uv": [ 6.0, 12.0, 8.0, 16.0 ], "autoUv": false },
+						"up": { "texture": "#candle", "uv": [ 14.0, 0.0, 16.0, 2.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "top",
+							"from": [ 0.6, 3.0, 0.6 ],
+							"to": [ 0.9, 3.375, 0.9 ],
+							"faces": {
+								"north": { "texture": "#candle", "uv": [ 0.0, 0.0, 0.0, 0.5 ], "glow": 255, "autoUv": false },
+								"east": { "texture": "#candle", "uv": [ 0.0, 0.0, 0.0, 0.5 ], "glow": 255, "autoUv": false },
+								"south": { "texture": "#candle", "uv": [ 0.0, 0.0, 0.0, 0.5 ], "glow": 255, "autoUv": false },
+								"west": { "texture": "#candle", "uv": [ 0.0, 0.0, 0.0, 0.5 ], "glow": 255, "autoUv": false },
+								"up": { "texture": "#candle", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "glow": 255, "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "rope1",
+					"from": [ -0.3, 11.0, -0.3 ],
+					"to": [ 0.2, 19.2, 0.2 ],
+					"rotationOrigin": [ -0.3, 10.0, -0.3 ],
+					"rotationX": 35.0,
+					"rotationY": -12.5,
+					"rotationZ": -35.0,
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "autoUv": false },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "rope2",
+					"from": [ 10.2, 10.8, -0.2 ],
+					"to": [ 10.7, 18.8, 0.3 ],
+					"rotationOrigin": [ 10.2, 9.8, -0.2 ],
+					"rotationX": 35.0,
+					"rotationY": 12.5,
+					"rotationZ": 35.0,
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "autoUv": false },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "rope3",
+					"from": [ -0.3, 10.8, 10.3 ],
+					"to": [ 0.2, 19.0, 10.8 ],
+					"rotationOrigin": [ -0.3, 9.8, 10.3 ],
+					"rotationX": -35.0,
+					"rotationY": 12.5,
+					"rotationZ": -35.0,
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "autoUv": false },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "rope4",
+					"from": [ 10.2, 10.4, 10.3 ],
+					"to": [ 10.7, 18.6, 10.8 ],
+					"rotationOrigin": [ 10.2, 9.4, 10.3 ],
+					"rotationX": -35.0,
+					"rotationY": -12.5,
+					"rotationZ": 35.0,
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 10.0 ], "autoUv": false },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "autoUv": false },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "mount",
+					"from": [ 4.0, 14.5, 4.0 ],
+					"to": [ 6.5, 15.2, 6.5 ],
+					"rotationOrigin": [ 4.0, 14.5, 4.0 ],
+					"faces": {
+						"north": { "texture": "#paperlantern_on", "uv": [ 0.0, 0.0, 2.5, 0.5 ] },
+						"east": { "texture": "#paperlantern_on", "uv": [ 0.0, 0.0, 2.5, 0.5 ] },
+						"south": { "texture": "#paperlantern_on", "uv": [ 0.0, 0.0, 2.5, 0.5 ] },
+						"west": { "texture": "#paperlantern_on", "uv": [ 0.0, 0.0, 2.5, 0.5 ] },
+						"up": { "texture": "#paperlantern_on", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "autoUv": false },
+						"down": { "texture": "#paperlantern_on", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

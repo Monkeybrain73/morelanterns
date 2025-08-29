@@ -1,0 +1,204 @@
+{
+	"editor": {
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"stone": "game:block/stone/rock/granite1"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Chuudai",
+					"from": [ 0.0, -15.7, 0.0 ],
+					"to": [ 0.0, -15.7, 0.0 ],
+					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Chuudai1",
+							"from": [ -2.5, -4.5, -2.5 ],
+							"to": [ -2.5, -4.5, -2.5 ],
+							"rotationOrigin": [ 8.0, 15.5, 8.0 ],
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "Chuudai2",
+									"from": [ 7.9092, 20.1685, 7.9092 ],
+									"to": [ 13.182, 20.5639, 13.182 ],
+									"rotationOrigin": [ 10.5456, 20.1685, 10.5456 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 5.5, 1.0, 9.5, 1.5 ], "autoUv": false },
+										"east": { "texture": "#stone", "uv": [ 4.0, 3.0, 8.0, 3.5 ], "autoUv": false },
+										"south": { "texture": "#stone", "uv": [ 11.0, 0.5, 15.0, 1.0 ], "autoUv": false },
+										"west": { "texture": "#stone", "uv": [ 3.0, 0.5, 7.0, 1.0 ], "autoUv": false },
+										"down": { "texture": "#stone", "uv": [ 2.5, 10.0, 7.5, 15.0 ], "windMode": [-1,-1,-1,-1] }
+									}
+								},
+								{
+									"name": "Chuudai3",
+									"from": [ 7.6456, 20.5639, 7.6456 ],
+									"to": [ 13.4456, 20.8276, 13.4456 ],
+									"rotationOrigin": [ 10.282, 20.5639, 10.282 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 11.0, 9.0, 15.0, 9.5 ], "autoUv": false },
+										"east": { "texture": "#stone", "uv": [ 11.0, 10.0, 15.0, 10.5 ], "autoUv": false },
+										"south": { "texture": "#stone", "uv": [ 9.0, 6.0, 13.0, 6.5 ], "autoUv": false },
+										"west": { "texture": "#stone", "uv": [ 10.5, 5.0, 14.5, 5.5 ], "autoUv": false },
+										"down": { "texture": "#stone", "uv": [ 7.5, 10.5, 11.5, 14.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+									}
+								},
+								{
+									"name": "Chuudai4",
+									"from": [ 7.3819, 20.8276, 7.3819 ],
+									"to": [ 13.7093, 21.1276, 13.7093 ],
+									"rotationOrigin": [ 10.0183, 20.8276, 10.0183 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 9.5, 2.5, 14.0, 3.0 ], "autoUv": false },
+										"east": { "texture": "#stone", "uv": [ 1.5, 3.0, 6.0, 3.5 ], "autoUv": false },
+										"south": { "texture": "#stone", "uv": [ 3.0, 9.0, 7.5, 9.5 ], "autoUv": false },
+										"west": { "texture": "#stone", "uv": [ 2.0, 9.0, 6.5, 9.5 ], "autoUv": false },
+										"down": { "texture": "#stone", "uv": [ 10.5, 0.0, 15.0, 4.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+									}
+								},
+								{
+									"name": "Chuudai5",
+									"from": [ 7.1183, 21.15, 7.1183 ],
+									"to": [ 13.9729, 21.55, 13.9729 ],
+									"rotationOrigin": [ 9.7547, 21.1548, 9.7547 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 9.0, 10.5, 14.0, 11.5 ], "autoUv": false },
+										"east": { "texture": "#stone", "uv": [ 2.5, 13.0, 7.5, 14.0 ], "autoUv": false },
+										"south": { "texture": "#stone", "uv": [ 0.0, 5.0, 5.0, 6.0 ], "autoUv": false },
+										"west": { "texture": "#stone", "uv": [ 6.0, 1.5, 11.0, 2.5 ], "autoUv": false },
+										"up": { "texture": "#stone", "uv": [ 6.5, 10.5, 11.5, 15.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"down": { "texture": "#stone", "uv": [ 6.0, 10.0, 11.0, 15.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+									}
+								},
+								{
+									"name": "Chuudai6",
+									"from": [ 8.4, 21.56, 5.435 ],
+									"to": [ 12.6, 22.56, 8.435 ],
+									"rotationOrigin": [ 10.5, 21.5, 10.5 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 4.0, 2.5, 8.0, 3.5 ] },
+										"up": { "texture": "#stone", "uv": [ 10.0, 9.0, 14.0, 12.0 ] },
+										"down": { "texture": "#stone", "uv": [ 6.5, 10.5, 10.5, 13.5 ] }
+									}
+								},
+								{
+									"name": "Chuudai7",
+									"from": [ 8.4, 21.55, 5.44 ],
+									"to": [ 12.6, 22.55, 8.44 ],
+									"rotationOrigin": [ 10.5, 21.5, 10.5 ],
+									"rotationY": 45.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 10.0, 9.5, 14.0, 10.5 ] },
+										"up": { "texture": "#stone", "uv": [ 3.5, 10.0, 7.5, 13.0 ] },
+										"down": { "texture": "#stone", "uv": [ 3.0, 9.5, 7.0, 12.5 ] }
+									}
+								},
+								{
+									"name": "Chuudai8",
+									"from": [ 8.4, 21.56, 5.435 ],
+									"to": [ 12.6, 22.56, 8.435 ],
+									"rotationOrigin": [ 10.5, 21.5, 10.5 ],
+									"rotationY": 90.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 10.0, 6.5, 14.0, 7.5 ] },
+										"up": { "texture": "#stone", "uv": [ 5.0, 12.5, 9.0, 15.5 ] },
+										"down": { "texture": "#stone", "uv": [ 10.0, 2.0, 14.0, 5.0 ] }
+									}
+								},
+								{
+									"name": "Chuudai9",
+									"from": [ 8.4, 21.55, 5.44 ],
+									"to": [ 12.6, 22.55, 8.44 ],
+									"rotationOrigin": [ 10.5, 21.5, 10.5 ],
+									"rotationY": 135.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 1.5, 13.0, 5.5, 14.0 ] },
+										"up": { "texture": "#stone", "uv": [ 5.5, 0.0, 9.5, 3.0 ] },
+										"down": { "texture": "#stone", "uv": [ 8.5, 6.5, 12.5, 9.5 ] }
+									}
+								},
+								{
+									"name": "Chuudai10",
+									"from": [ 8.4, 21.56, 5.435 ],
+									"to": [ 12.6, 22.56, 8.435 ],
+									"rotationOrigin": [ 10.5, 21.5, 10.5 ],
+									"rotationY": 180.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 11.0, 12.5, 15.0, 13.5 ] },
+										"up": { "texture": "#stone", "uv": [ 5.5, 0.5, 9.5, 3.5 ] },
+										"down": { "texture": "#stone", "uv": [ 6.5, 11.5, 10.5, 14.5 ] }
+									}
+								},
+								{
+									"name": "Chuudai11",
+									"from": [ 8.4, 21.55, 5.435 ],
+									"to": [ 12.6, 22.55, 8.435 ],
+									"rotationOrigin": [ 10.5, 21.5, 10.5 ],
+									"rotationY": -135.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 2.0, 7.0, 6.0, 8.0 ] },
+										"up": { "texture": "#stone", "uv": [ 3.0, 11.5, 7.0, 14.5 ] },
+										"down": { "texture": "#stone", "uv": [ 8.5, 0.5, 12.5, 3.5 ] }
+									}
+								},
+								{
+									"name": "Chuudai12",
+									"from": [ 8.4, 21.56, 5.43 ],
+									"to": [ 12.6, 22.56, 8.43 ],
+									"rotationOrigin": [ 10.5, 21.5, 10.5 ],
+									"rotationY": -90.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 6.0, 0.0, 10.0, 1.0 ] },
+										"up": { "texture": "#stone", "uv": [ 5.5, 7.0, 9.5, 10.0 ] },
+										"down": { "texture": "#stone", "uv": [ 2.0, 11.5, 6.0, 14.5 ] }
+									}
+								},
+								{
+									"name": "Chuudai13",
+									"from": [ 8.4, 21.55, 5.44 ],
+									"to": [ 12.6, 22.55, 8.44 ],
+									"rotationOrigin": [ 10.5, 21.5, 10.5 ],
+									"rotationY": -45.0,
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 10.5, 5.0, 14.5, 6.0 ] },
+										"up": { "texture": "#stone", "uv": [ 1.5, 1.5, 5.5, 4.5 ] },
+										"down": { "texture": "#stone", "uv": [ 0.0, 10.5, 4.0, 13.5 ] }
+									}
+								},
+								{
+									"name": "Chuudai14",
+									"from": [ 8.12, 22.1, 8.12 ],
+									"to": [ 12.9746, 22.5, 12.9746 ],
+									"rotationOrigin": [ 10.7547, 22.1548, 10.7547 ],
+									"faces": {
+										"north": { "texture": "#stone", "uv": [ 2.5, 3.0, 7.5, 4.0 ], "autoUv": false },
+										"east": { "texture": "#stone", "uv": [ 9.0, 3.0, 14.0, 4.0 ], "autoUv": false },
+										"south": { "texture": "#stone", "uv": [ 4.5, 6.5, 9.5, 7.5 ], "autoUv": false },
+										"west": { "texture": "#stone", "uv": [ 9.0, 14.0, 14.0, 15.0 ], "autoUv": false },
+										"up": { "texture": "#stone", "uv": [ 9.5, 0.5, 14.5, 5.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"down": { "texture": "#stone", "uv": [ 3.0, 4.5, 8.0, 9.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

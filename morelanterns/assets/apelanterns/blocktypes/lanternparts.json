@@ -1,0 +1,217 @@
+{
+	"code": "lanternparts",
+	"behaviors": [
+		{ "name": "GroundStorable",
+			"properties": {
+				"layout": "Quadrants",
+				"sprintKey": true,
+				"selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+				"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+			}
+		},
+		{ "name": "MoreLanterns.BlockName",
+			"properties": { "parts": ["apelanterns:lanternparts-{part}", " (", "apelanterns:lanternparts-style-{style}", ")", " (", "game:rock-{rocktype}", ")"] }
+		},
+		{ "name": "RightClickPickup" }
+	],
+	"snowcoverage": true,
+	"variantgroups": [
+		{ "code": "style", "states": [ "yukimi", "maru", "ikekomi", "daitsuki" ] },
+		{ "code": "part", "states": [ "kiso", "sao", "ashi", "chuudai", "hibukuro", "kasa", "houju" ] },
+		{ "code": "rocktype", "states": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+	],
+	"skipVariants": [
+		"*-yukimi-kiso-*",
+		"*-yukimi-sao-*",
+		"*-yukimi-chuudai-*",
+		"*-maru-kiso-*",
+		"*-maru-sao-*",
+		"*-maru-chuudai-*",
+		"*-maru-ashi-*",
+		"*-maru-houju-*",
+		"*-ikekomi-kiso-*",
+		"*-ikekomi-ashi-*",
+		"*-ikekomi-houju-*",
+		"*-daitsuki-ashi-*"
+	],
+	"drawtype": "json",
+	"shape": { "base": "apelanterns:block/stonelanternparts/{style}/{part}" },
+	"textures": {
+		"stone": { "base": "game:block/stone/rock/{rocktype}1" }
+	},
+	"attributes": {
+		"handbook": { "groupBy": [ "lanternparts-{style}-*-{rocktype}" ] }
+	},
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "apelanterns": ["*"] },
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"blockmaterial": "Stone",
+	"maxstacksize": 8,
+	"storageFlags": 1,
+	"resistance": 6,
+	"lightAbsorption": 0,
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"doNotRenderAtLod2": true,
+	"tpHandTransformByType": {
+		"*-houju-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -1, "y": 14, "z": -74 },
+			"origin": { "x": -0.3, "y": 0.63, "z": 0.26 },
+			"scale": 0.7
+		},
+		"*-daitsuki-kasa-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": -166, "z": 70 },
+			"origin": { "x": 0, "y": -0.5, "z": -0.3 },
+			"scale": 0.6
+		},
+		"*-ikekomi-kasa-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": -166, "z": 93 },
+			"origin": { "x": 0.1, "y": -0.3, "z": -0.3 },
+			"scale": 0.55
+		},
+		"*-maru-kasa-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": -166, "z": 75 },
+			"origin": { "x": 0, "y": -0.5, "z": -0.3 },
+			"scale": 0.55
+		},
+		"*-yukimi-kasa-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 5, "y": -166, "z": 70 },
+			"origin": { "x": 0, "y": -0.2, "z": -0.1 },
+			"scale": 0.45
+		},
+		"*-daitsuki-hibukuro-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 11, "y": -166, "z": 79 },
+			"origin": { "x": -0.2, "y": -0.3, "z": -1.6 },
+			"scale": 0.8
+		},
+		"*-ikekomi-hibukuro-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 52, "y": -177, "z": 78 },
+			"origin": { "x": -0.2, "y": 0.15, "z": -0.48 },
+			"scale": 0.6
+		},
+		"*-maru-hibukuro-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 15, "y": -168, "z": 71 },
+			"origin": { "x": 0, "y": -0.3, "z": -0.3 },
+			"scale": 0.5
+		},
+		"*-yukimi-hibukuro-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 9, "y": -165, "z": 71 },
+			"origin": { "x": 0, "y": -0.4, "z": -0.3 },
+			"scale": 0.5
+		},
+		"*-chuudai-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 8, "y": -166, "z": 73 },
+			"origin": { "x": -0.05, "y": -0.25, "z": -0.2 },
+			"scale": 0.5
+		},
+		"*-ashi-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 8, "y": -166, "z": 73 },
+			"origin": { "x": -0.3, "y": -0.4, "z": -0.15 },
+			"scale": 0.45
+		},
+		"*-daitsuki-sao-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -8, "y": -105, "z": 99 },
+			"origin": { "x": -0.3, "y": -0.4, "z": -0.25 },
+			"scale": 0.53
+		},
+		"*-ikekomi-sao-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -8, "y": -105, "z": 99 },
+			"origin": { "x": -0.3, "y": -0.4, "z": -0.25 },
+			"scale": 0.45
+		},
+		"*-kiso-*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 6, "y": 15, "z": -75 },
+			"origin": { "x": 0, "y": 0.15, "z": 0.3 },
+			"scale": 0.45
+		},
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 6, "y": 15, "z": -75 },
+			"origin": { "x": 0, "y": 0.15, "z": 0.3 },
+			"scale": 0.45
+		}
+	},
+	"guiTransformByType": {
+		"*-kiso-*": { "origin": {"x": 0.5, "y": 0.1, "z": 0.5}, "scale": 1.96 },
+		"*-ikekomi-sao-*": { "origin": {"x": 0.5, "y": 0.5, "z": 0.5}, "scale": 1.90 },
+		"*-daitsuki-sao-*": { "origin": {"x": 0.5, "y": 0.4, "z": 0.5}, "scale": 2 },
+		"*-ashi-*": { "origin": {"x": 0.5, "y": 0.3, "z": 0.5}, "scale": 1.46 },
+		"*-chuudai-*": { "origin": {"x": 0.5, "y": 0.3, "z": 0.5}, "scale": 2 },
+		"*-hibukuro-*": { "origin": {"x": 0.5, "y": 0.2, "z": 0.5}, "scale": 1.78 },
+		"*-yukimi-kasa-*": { "origin": {"x": 0.5, "y": 0, "z": 0.5}, "scale": 1.7 },
+		"*-maru-kasa-*": { "origin": {"x": 0.5, "y": 0.1, "z": 0.5}, "scale": 1.5 },
+		"*-ikekomi-kasa-*": { "origin": {"x": 0.5, "y": 0.1, "z": 0.5}, "scale": 1.7 },
+		"*-daitsuki-kasa-*": { "origin": {"x": 0.5, "y": 0.1, "z": 0.5}, "scale": 2 },
+		"*-kasa-*": { "origin": {"x": 0.5, "y": 0.3, "z": 0.5}, "scale": 2 },
+		"*-yukimi-houju-*": { "origin": {"x": 0.5, "y": 0.14, "z": 0.5}, "scale": 2.94 },
+		"*-houju-*": { "origin": {"x": 0.5, "y": 0.3, "z": 0.5}, "scale": 2 },
+		"*": { "origin": {"x": 0.5, "y": 0.3, "z": 0.5}, "scale": 1.2 }
+	},
+	"groundTransformByType": {
+		"*-daitsuki-sao-*": {
+			"translation": { "x": 0, "y": -0.22, "z": 0 },
+			"rotation": { "x": -90, "y": 0, "z": 0 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 3
+		},
+		"*-sao-*": {
+			"translation": { "x": 0, "y": -0.16, "z": 0 },
+			"rotation": { "x": -90, "y": 0, "z": 0 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 2.5
+		},
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 2.5
+		}
+	},
+	"selectionBoxByType": {
+		"*-yukimi-ashi-*": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 0.5315, "z2": 0.875 },
+		"*-yukimi-houju-*": { "x1": 0.375, "y1": 0, "z1": 0.3823, "x2": 0.5998, "y2": 0.28, "z2": 0.594 },
+		"*-yukimi-kasa-*": { "x1": 0.063, "y1": 0, "z1": 0.063, "x2": 0.937, "y2": 0.1, "z2": 0.937 },
+		"*-maru-kasa-*": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0.137, "z2": 0 },
+		"*-ikekomi-kasa-*": { "x1": 0.1376, "y1": 0, "z1": 0.1376, "x2": 0.8624, "y2": 0.1749, "z2": 0.8624 },
+		"*-daitsuki-kasa-*": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 0.2248, "z2": 0.875 },
+		"*-daitsuki-sao-*": { "x1": 0.3561, "y1": 0, "z1": 0.3566, "x2": 0.6434, "y2": 0.875, "z2": 0.6376 },
+		"*-daitsuki-kiso-*": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 0.2, "z2": 0.875 },
+		"*-ikekomi-sao-*": { "x1": 0.25, "y1": 0, "z1": 0.3125, "x2": 0.75, "y2": 0.9065, "z2": 0.6875 },
+		"*-ikekomi-hibukuro-*": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.337, "z2": 0.6875 },
+		"*-maru-hibukuro-*": { "x1": 0.0877, "y1": 0, "z1": 0.0877, "x2": 0.8934, "y2": 0.5, "z2": 0.8934 },
+		
+
+	},
+	"collisionBoxByType": {
+		"*-yukimi-ashi-*": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 0.5315, "z2": 0.875 },
+		"*-yukimi-houju-*": { "x1": 0.375, "y1": 0, "z1": 0.3823, "x2": 0.5998, "y2": 0.28, "z2": 0.594 },
+		"*-yukimi-kasa-*": { "x1": 0.063, "y1": 0, "z1": 0.063, "x2": 0.937, "y2": 0.1, "z2": 0.937 },
+		"*-maru-kasa-*": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0.137, "z2": 0 },
+		"*-ikekomi-kasa-*": { "x1": 0.1376, "y1": 0, "z1": 0.1376, "x2": 0.8624, "y2": 0.1749, "z2": 0.8624 },
+		"*-daitsuki-kasa-*": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 0.2248, "z2": 0.875 },
+		"*-daitsuki-sao-*": { "x1": 0.3561, "y1": 0, "z1": 0.3566, "x2": 0.6434, "y2": 0.875, "z2": 0.6376 },
+		"*-daitsuki-kiso-*": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 0.2, "z2": 0.875 },
+		"*-ikekomi-sao-*": { "x1": 0.25, "y1": 0, "z1": 0.3125, "x2": 0.75, "y2": 0.9065, "z2": 0.6875 },
+		"*-ikekomi-hibukuro-*": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.337, "z2": 0.6875 },
+		"*-maru-hibukuro-*": { "x1": 0.0877, "y1": 0, "z1": 0.0877, "x2": 0.8934, "y2": 0.5, "z2": 0.8934 },
+
+	}
+	
+}

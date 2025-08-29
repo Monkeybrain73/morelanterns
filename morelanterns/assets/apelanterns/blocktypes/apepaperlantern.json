@@ -1,0 +1,246 @@
+{
+	"code": "apepaperlantern",
+	"class": "Block",
+	"storageFlagsByType": {
+		"*-basic-*": 1,
+		"*-chinese-*": 257,
+		"*-chinese2-*": 257,
+		"*-medieval1small-*": 257,
+		"*": 1
+	},
+	"behaviorsByType": {
+		"*-chinese-*": [
+		{ "name": "OmniAttachable", "properties": { 
+			"facingCode": "position",
+			"attachmentAreas": {
+				"down": { "x1": 7, "y1": 15, "z1": 7, "x2": 8, "y2": 15, "z2": 8 },
+				"up": { "x1": 5, "y1": 0, "z1": 5, "x2": 10, "y2": 0, "z2": 10 },
+				"north": { "x1": 3, "y1": 0, "z1": 0, "x2": 12, "y2": 2, "z2": 1 },
+				"east": { "x1": 3, "y1": 0, "z1": 0, "x2": 12, "y2": 2, "z2": 1, "rotateY": 270 },
+				"south": { "x1": 4, "y1": 0, "z1": 0, "x2": 13, "y2": 2, "z2": 1, "rotateY": 180 },
+				"west": { "x1": 5, "y1": 0, "z1": 0, "x2": 12, "y2": 2, "z2": 1, "rotateY": 90 }
+			}
+		}},
+		{ "name": "MoreLanterns.BlockName",
+			"properties": { "parts": ["apelanterns:paperlantern-{model}", " (", "apelanterns:lanterncolor-{colour}", ")", " (", "apelanterns:paperlantern-{state}", ")"] }
+		},
+		{ "name": "RightClickPickup" }
+		],
+		"*-medieval1small-*": [
+		{ "name": "OmniAttachable", "properties": { 
+			"facingCode": "position",
+			"attachmentAreas": {
+				"down": { "x1": 7, "y1": 15, "z1": 7, "x2": 8, "y2": 15, "z2": 8 },
+				"up": { "x1": 5, "y1": 0, "z1": 5, "x2": 10, "y2": 0, "z2": 10 },
+				"north": { "x1": 6, "y1": 0, "z1": 0, "x2": 9, "y2": 7, "z2": 1 },
+				"east": { "x1": 6, "y1": 0, "z1": 0, "x2": 9, "y2": 7, "z2": 1, "rotateY": 270 },
+				"south": { "x1": 7, "y1": 0, "z1": 0, "x2": 10, "y2": 7, "z2": 1, "rotateY": 180 },
+				"west": { "x1": 7, "y1": 0, "z1": 0, "x2": 10, "y2": 7, "z2": 1, "rotateY": 90 }
+			}
+		}},
+		{ "name": "MoreLanterns.BlockName",
+			"properties": { "parts": ["apelanterns:paperlantern-{model}", " (", "apelanterns:lanterncolor-{colour}", ")", " (", "apelanterns:paperlantern-{state}", ")"] }
+		},
+		{ "name": "RightClickPickup" }
+		],
+		"*": [
+		{ "name": "OmniAttachable", "properties": { 
+			"facingCode": "position",
+			"attachmentAreas": {
+				"down": { "x1": 7, "y1": 15, "z1": 7, "x2": 8, "y2": 15, "z2": 8 },
+				"up": { "x1": 2, "y1": 0, "z1": 2, "x2": 14, "y2": 0, "z2": 14 },
+				"north": { "x1": 3, "y1": 0, "z1": 0, "x2": 12, "y2": 2, "z2": 1 },
+				"east": { "x1": 3, "y1": 0, "z1": 0, "x2": 12, "y2": 2, "z2": 1, "rotateY": 270 },
+				"south": { "x1": 4, "y1": 0, "z1": 0, "x2": 13, "y2": 2, "z2": 1, "rotateY": 180 },
+				"west": { "x1": 4, "y1": 0, "z1": 0, "x2": 13, "y2": 2, "z2": 1, "rotateY": 90 }
+			}
+		}},
+		{ "name": "MoreLanterns.BlockName",
+			"properties": { "parts": ["apelanterns:paperlantern-{model}", " (", "apelanterns:lanterncolor-{colour}", ")", " (", "apelanterns:paperlantern-{state}", ")"] }
+		},
+		{ "name": "RightClickPickup" }
+		]
+	},
+	"heldRightTpIdleAnimation": "holdinglanternrighthand",
+	"heldLeftTpIdleAnimation": "holdinglanternlefthand",
+	"attributesByType": {
+		"*-on-*-up": { "handbook": { "include": true, "groupBy": ["apepaperlantern-*"] } },
+		"*": { "handbook": { "exclude": true } }
+	},
+	"variantgroups": [
+		{ "code": "state", "states": ["off","on"] },
+		{ "code": "model", "states": ["basic","chinese","chinese2","medieval1small"] },
+		{ "code": "colour", "states": ["plain","blue","red","green","yellow","orange","brown","purple","pink","cyan","woad"] },
+		{ "code":"position", "states": ["up", "down"], "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"skipVariants": [
+		"apepaperlantern",
+		"*-chinese-green-*",
+		"*-chinese-yellow-*",
+		"*-chinese-orange-*",
+		"*-chinese-brown-*",
+		"*-chinese-purple-*",
+		"*-chinese-pink-*",
+		"*-chinese-cyan-*",
+		"*-chinese-woad-*"
+	],
+	"shapebytype": {
+		"apepaperlantern-*-*-*-up": { "base": "block/apepaperlantern/{model}-floor" },
+		"apepaperlantern-*-*-*-down": { "base": "block/apepaperlantern/{model}-ceiling" },
+		"apepaperlantern-*-*-*-north": { "base": "block/apepaperlantern/{model}-wall" },
+		"apepaperlantern-*-*-*-east": { "base": "block/apepaperlantern/{model}-wall", "rotateY": 270 },
+		"apepaperlantern-*-*-*-south": { "base": "block/apepaperlantern/{model}-wall", "rotateY": 180 },
+		"apepaperlantern-*-*-*-west": { "base": "block/apepaperlantern/{model}-wall", "rotateY": 90 }
+	},
+	"texturesByType": {
+		"apepaperlantern-on-basic-blue-*": { "paperlantern_on": { "base": "apelanterns:block/paper/paperlantern_blue" }},
+		"apepaperlantern-on-basic-red-*": { "paperlantern_on": { "base": "apelanterns:block/paper/paperlantern_red" }},
+		"apepaperlantern-on-basic-green-*": { "paperlantern_on": { "base": "apelanterns:block/paper/paperlantern_green" }},
+		"apepaperlantern-on-basic-yellow-*": { "paperlantern_on": { "base": "apelanterns:block/paper/paperlantern_yellow" }},
+		"apepaperlantern-on-basic-orange-*": { "paperlantern_on": { "base": "apelanterns:block/paper/paperlantern_orange" }},
+		"apepaperlantern-on-basic-brown-*": { "paperlantern_on": { "base": "apelanterns:block/paper/paperlantern_brown" }},
+		"apepaperlantern-on-basic-purple-*": { "paperlantern_on": { "base": "apelanterns:block/paper/paperlantern_purple" }},
+		"apepaperlantern-on-basic-pink-*": { "paperlantern_on": { "base": "apelanterns:block/paper/paperlantern_pink" }},
+		"apepaperlantern-on-basic-cyan-*": { "paperlantern_on": { "base": "apelanterns:block/paper/paperlantern_cyan" }},
+		"apepaperlantern-on-basic-woad-*": { "paperlantern_on": { "base": "apelanterns:block/paper/paperlantern_woad" }},
+		"apepaperlantern-on-basic-plain-*": { "paperlantern_on": { "base": "apelanterns:block/paper/paperlantern_plain" }},
+
+		"apepaperlantern-*-medieval1small-blue-*": { "white1": { "base": "game:block/cloth/linen/blue" }},
+		"apepaperlantern-*-medieval1small-red-*": { "white1": { "base": "game:block/cloth/linen/red" }},
+		"apepaperlantern-*-medieval1small-green-*": { "white1": { "base": "game:block/cloth/linen/green" }},
+		"apepaperlantern-*-medieval1small-yellow-*": { "white1": { "base": "game:block/cloth/linen/yellow" }},
+		"apepaperlantern-*-medieval1small-orange-*": { "white1": { "base": "game:block/cloth/linen/orange" }},
+		"apepaperlantern-*-medieval1small-brown-*": { "white1": { "base": "game:block/cloth/linen/brown" }},
+		"apepaperlantern-*-medieval1small-purple-*": { "white1": { "base": "game:block/cloth/linen/purple" }},
+		"apepaperlantern-*-medieval1small-pink-*": { "white1": { "base": "game:block/cloth/linen/pink" }},
+		"apepaperlantern-*-medieval1small-cyan-*": { "white1": { "base": "apelanterns:block/liquid/dye/cyan" }},
+		"apepaperlantern-*-medieval1small-woad-*": { "white1": { "base": "game:block/cloth/linen/blue" }},
+		"apepaperlantern-*-medieval1small-plain-*": { "white1": { "base": "game:block/cloth/linen/plain" }},
+
+		"apepaperlantern-*-chinese2-blue-*": { "red": { "base": "game:block/cloth/linen/blue" }},
+		"apepaperlantern-*-chinese2-red-*": { "red": { "base": "game:block/cloth/linen/red" }},
+		"apepaperlantern-*-chinese2-green-*": { "red": { "base": "game:block/cloth/linen/green" }},
+		"apepaperlantern-*-chinese2-yellow-*": { "red": { "base": "game:block/cloth/linen/yellow" }},
+		"apepaperlantern-*-chinese2-orange-*": { "red": { "base": "game:block/cloth/linen/orange" }},
+		"apepaperlantern-*-chinese2-brown-*": { "red": { "base": "game:block/cloth/linen/brown" }},
+		"apepaperlantern-*-chinese2-purple-*": { "red": { "base": "game:block/cloth/linen/purple" }},
+		"apepaperlantern-*-chinese2-pink-*": { "red": { "base": "game:block/cloth/linen/pink" }},
+		"apepaperlantern-*-chinese2-cyan-*": { "red": { "base": "apelanterns:block/liquid/dye/cyan" }},
+		"apepaperlantern-*-chinese2-woad-*": { "red": { "base": "game:block/cloth/linen/blue" }},
+		"apepaperlantern-*-chinese2-plain-*": { "red": { "base": "game:block/cloth/linen/plain" }},
+
+		"*-off-basic-*": { "paperlantern_on": { "base": "game:block/metal/paperlantern_{state}" }}
+	},
+	"creativeinventory": { "general": ["*-up"], "decorative": ["*-up"], "apelanterns": ["*-up"] },
+	"blockmaterial": "Wood",
+	"lightAbsorption": 0,
+	"lightHsvByType": {
+		"*-on-chinese-plain-*": [7, 2, 18],
+		"*-on-chinese-red-*": [0, 3, 18],
+		"*-off-chinese-*": [0, 0, 0],
+		"*-off-*": [0,0,0],
+		"*-blue-*": [43, 6, 21],
+		"*-red-*": [0, 6, 21],
+		"*-green-*": [21, 6, 21],
+		"*-yellow-*": [10, 6, 21],
+		"*-orange-*": [5, 7, 21],
+		"*-brown-*": [2, 5, 21],
+		"*-purple-*": [50, 6, 21],
+		"*-pink-*": [54, 6, 21],
+		"*-cyan-*": [32, 5, 21],
+		"*-woad-*": [42, 5, 21],
+		"*-on-*": [7, 3, 18]
+	},
+	"vertexFlagsByType": {
+		"*-on-chinese-*": { "glowLevel": 64 },
+		"*-off-chinese-*": { "glowLevel": 0 },
+		"*-on-chinese2-*": { "glowLevel": 64 },
+		"*-off-chinese2-*": { "glowLevel": 0 },
+		"*-on-*": { "glowLevel": 128 },
+		"*-off-*": { "glowLevel": 0 }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"replaceable": 1000,
+	"resistance": 1,
+	"sounds": {
+		"place": "game:block/cloth",
+		"walk": "game:walk/cloth"
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0.3, "y": -0.1, "z": 0 },
+		"rotation": { "x": 0, "y": -45, "z": 0 },
+		"scale": 1.18
+	},
+	"guiTransformByType": {
+		"*-modern1-*": { "origin": {"x": 0.5, "y": 0.3, "z": 0.5}, "scale": 1.6 },
+		"*-medieval1small-*": { "origin": {"x": 0.5, "y": 0.3, "z": 0.5}, "scale": 1.6 },
+		"*-chinese-*": { "origin": {"x": 0.5, "y": 0.3, "z": 0.5}, "scale": 1.5 },
+		"*-chinese2-*": { "origin": {"x": 0.5, "y": 0.3, "z": 0.5}, "scale": 1.6 },
+		"*-basic-*": { "origin": {"x": 0.5, "y": 0.3, "z": 0.5}, "scale": 1 },
+		"*": { "origin": {"x": 0.5, "y": 0.3, "z": 0.5}, "scale": 1.2 }
+	},
+	"tpHandTransform": {
+		"*-basic-*": {
+		"translation": { "x": -0.6899, "y": -1.06, "z": -0.98 },
+		"rotation": { "x": 0, "y": 7, "z": -90 },
+		"origin": { "x": 0.5, "y": 0.45, "z": 0.4 },
+		"scale": 0.4
+		},
+		"*": {
+		"translation": { "x": -0.6899, "y": -0.89, "z": -0.93 },
+		"rotation": { "x": 0, "y": 7, "z": -90 },
+		"scale": 0.55
+		}
+	},
+	"tpOffHandTransform": {
+		"translation": { "x": -0.6899, "y": -0.89, "z": -0.93 },
+		"rotation": { "x": 0, "y": -8, "z": -96 },
+		"scale": 0.55
+	},
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2
+	},
+	"selectionboxByType": {
+		"*-medieval1small-*-up": { "x1": 0.2916, "y1": 0, "z1": 0.2853, "x2": 0.721, "y2": 0.5678, "z2": 0.7152 },
+		"*-medieval1small-*-down": { "x1": 0.2755, "y1": 0.1449, "z1": 0.2732, "x2": 0.7268, "y2": 0.6729, "z2": 0.7258 },
+		"*-medieval1small-*-east": { "x1": 0.2812, "y1": 0.0378, "z1": 0.4028, "x2": 0.7251, "y2": 0.5669, "z2": 0.8818, "rotateY": 270 },
+		"*-medieval1small-*-south": { "x1": 0.2812, "y1": 0.0378, "z1": 0.4028, "x2": 0.7251, "y2": 0.5669, "z2": 0.8818, "rotateY": 180 },
+		"*-medieval1small-*-west": { "x1": 0.2812, "y1": 0.0378, "z1": 0.4028, "x2": 0.7251, "y2": 0.5669, "z2": 0.8818, "rotateY": 90 },
+		"*-medieval1small-*-north": { "x1": 0.2812, "y1": 0.0378, "z1": 0.4028, "x2": 0.7251, "y2": 0.5669, "z2": 0.8818 },
+
+		"*-chinese-*-up": { "x1": 0.2916, "y1": 0, "z1": 0.2853, "x2": 0.721, "y2": 0.6749, "z2": 0.7152 },
+		"*-chinese-*-down": { "x1": 0.2756, "y1": 0.252, "z1": 0.2921, "x2": 0.7268, "y2": 0.7989, "z2": 0.7258 },
+		"*-chinese-*-east": { "x1": 0.2812, "y1": 0, "z1": 0.3398, "x2": 0.7251, "y2": 0.737, "z2": 0.7811, "rotateY": 270 },
+		"*-chinese-*-south": { "x1": 0.2812, "y1": 0, "z1": 0.3398, "x2": 0.7251, "y2": 0.737, "z2": 0.7811, "rotateY": 180 },
+		"*-chinese-*-west": { "x1": 0.2812, "y1": 0, "z1": 0.3398, "x2": 0.7251, "y2": 0.737, "z2": 0.7811, "rotateY": 90 },
+		"*-chinese-*-north": { "x1": 0.2812, "y1": 0, "z1": 0.3398, "x2": 0.7251, "y2": 0.737, "z2": 0.7811 },
+
+		"*-chinese2-*-up": { "x1": 0.2916, "y1": 0, "z1": 0.2853, "x2": 0.721, "y2": 0.6749, "z2": 0.7152 },
+		"*-chinese2-*-down": { "x1": 0.2756, "y1": 0.252, "z1": 0.2921, "x2": 0.7268, "y2": 0.7989, "z2": 0.7258 },
+		"*-chinese2-*-east": { "x1": 0.2812, "y1": 0, "z1": 0.3398, "x2": 0.7251, "y2": 0.737, "z2": 0.7811, "rotateY": 270 },
+		"*-chinese2-*-south": { "x1": 0.2812, "y1": 0, "z1": 0.3398, "x2": 0.7251, "y2": 0.737, "z2": 0.7811, "rotateY": 180 },
+		"*-chinese2-*-west": { "x1": 0.2812, "y1": 0, "z1": 0.3398, "x2": 0.7251, "y2": 0.737, "z2": 0.7811, "rotateY": 90 },
+		"*-chinese2-*-north": { "x1": 0.2812, "y1": 0, "z1": 0.3398, "x2": 0.7251, "y2": 0.737, "z2": 0.7811 },
+
+		"*-basic-*-up": { "x1": 0.06, "y1": 0, "z1": 0.06, "x2": 0.94, "y2": 0.9375, "z2": 0.94 },
+		"*-basic-*-down": { "x1": 0.1686, "y1": 0.0441, "z1": 0.1724, "x2": 0.8276, "y2": 0.7044, "z2": 0.8266 },
+		"*-basic-*-east": { "x1": 0.2, "y1": 0, "z1": 0.135, "x2": 0.95, "y2": 0.8, "z2": 0.875 },
+		"*-basic-*-south": { "x1": 0.125, "y1": 0, "z1": 0.2, "x2": 0.87, "y2": 0.8, "z2": 0.95 },
+		"*-basic-*-west": { "x1": 0.05, "y1": 0, "z1": 0.125, "x2": 0.8, "y2": 0.8, "z2": 0.87 },
+		"*-basic-*-north": { "x1": 0.13, "y1": 0, "z1": 0.05, "x2": 0.87, "y2": 0.8, "z2": 0.8 }
+	},
+	"collisionboxbytype": {
+		"*-up": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.6875, "y2": 0.75, "z2": 0.75 },
+		"*-down": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 1, "z2": 0.75 },
+		"*-east": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.875, "z2": 1, "rotateY": 270 },
+		"*-south": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.875, "z2": 1, "rotateY": 180 },
+		"*-west": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.875, "z2": 1, "rotateY": 90 },
+		"*-north": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.875, "z2": 1 }
+	}
+}

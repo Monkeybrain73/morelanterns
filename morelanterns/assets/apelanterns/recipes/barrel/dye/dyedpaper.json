@@ -1,0 +1,11 @@
+[
+	{
+		"code": "colouredpaper",
+		"sealHours": 4,
+		"ingredients": [
+			{ "type": "item", "code": "game:dye-*", "name": "color", "litres": 1, "consumelitres": 1, "allowedVariants": ["blue","red","green","yellow","orange","brown","purple","pink","cyan","woad" ] },
+			{ "type": "item", "code": "game:paper-parchment", "quantity": 10 }
+		],
+		"output": { "type": "item", "code": "colouredpaper-parchment-{color}", "stackSize": 10 }
+	}
+]

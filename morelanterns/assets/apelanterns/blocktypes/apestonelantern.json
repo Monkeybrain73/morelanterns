@@ -1,0 +1,383 @@
+{
+	"code": "apestonelantern",
+	"entityClass": "Transient",
+	"behaviors": [
+		{ "name": "MoreLanterns.BlockName",
+			"properties": { "parts": ["apelanterns:stonelantern-{type}", " (", "game:rock-{rock}", ")", " (", "apelanterns:apestonelantern-{decor}", ")"] }
+		},
+		{ "name": "UnstableFalling" }
+	],
+	"storageFlags": 1,
+	"attributesByType": {
+		"*-yukimi-doro-*": {
+			"handbook": { "include": true, "groupBy": ["*-yukimi-doro-*"], "extraSections": [{ "title": "apestonelantern-handbook-help-title-yukimi-doro", "text": "apestonelantern-handbook-help-text-yukimi" }] },
+			},
+		"*-kodai-maru-yukimi-*": {
+			"handbook": { "include": true, "groupBy": ["*-kodai-maru-yukimi-*"], "extraSections": [{ "title": "apestonelantern-handbook-help-title-kodai-maru-yukimi", "text": "apestonelantern-handbook-help-text-yukimi" }] }
+			},
+		"*-ikekomi-gata-oribe-*": {
+			"handbook": { "include": true, "groupBy": ["*-ikekomi-gata-oribe-*"], "extraSections": [{ "title": "apestonelantern-handbook-help-title-ikekomi-gata-oribe", "text": "apestonelantern-handbook-help-text-oribe" }] }
+			},
+		"*-okunoin-daitsuki-*": {
+			"handbook": { "include": true, "groupBy": ["*-okunoin-daitsuki-*"], "extraSections": [{ "title": "apestonelantern-handbook-help-title-daitsuki", "text": "apestonelantern-handbook-help-text-daitsuki" }] }
+			},
+		"*-clean": {
+			"transientProps": {
+				"convertFrom": "*-clean",
+				"convertTo": "*-weathered",
+				"inGameHours": "168",
+			}
+		},
+		"*-weathered": {
+			"transientProps": {
+				"convertFrom": "*-weathered",
+				"convertTo": "*-cracked",
+				"inGameHours": "168",
+			}
+		},
+		"*-cracked": {
+			"transientProps": {
+				"convertFrom": "*-cracked",
+				"convertTo": "*-mossy",
+				"inGameHours": "168",
+			}
+		},
+		"*-mossy": {
+			"transientProps": {
+				"convertFrom": "*-mossy",
+				"convertTo": "*-rust",
+				"inGameHours": "672",
+			}
+		},
+		"*": {
+			"handbook": { "exclude": true }
+			}
+	},
+	"snowcoverage": true,
+	"variantgroups": [
+		{ "code": "type", "states": [ "yukimi-doro", "kodai-maru-yukimi", "ikekomi-gata-oribe", "okunoin-daitsuki" ] },
+		{ "code": "rock", "states": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
+		{ "code": "decor", "states": [ "clean", "weathered", "mossy", "rust", "cracked" ] }
+	],
+	"shape": { "base": "apelanterns:block/apestonelantern/{type}",
+		"alternates": [
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 22.5 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 45 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 67.5 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 90 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 112.5 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 135 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 157.5 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 180 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 202.5 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 225 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 247.5 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 270 },
+		]
+	},
+	"texturesByType": {
+		"*-mossy": { "stone": { "base": "game:block/stone/polishedrock-old/inside/{rock}",
+			"alternates": [
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 90, "blendedOverlays": [{ "base": "game:block/overlay/spottymoss/normal1", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 180, "blendedOverlays": [{ "base": "game:block/overlay/spottymoss/normal2", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 270, "blendedOverlays": [{ "base": "game:block/overlay/spottymoss/normal3", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 90, "blendedOverlays": [{ "base": "game:block/overlay/spottymoss/normal4", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 180, "blendedOverlays": [{ "base": "game:block/overlay/spottymoss/normal5", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 270, "blendedOverlays": [{ "base": "game:block/overlay/spottymoss/normal6", "blendMode": "Overlay" }] }
+		]}},
+		"*-rust": { "stone": { "base": "game:block/stone/polishedrock-old/inside/{rock}",
+			"alternates": [
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 90, "blendedOverlays": [{ "base": "game:block/overlay/rust/normal1", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 180, "blendedOverlays": [{ "base": "game:block/overlay/rust/normal2", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 270, "blendedOverlays": [{ "base": "game:block/overlay/rust/normal3", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 90, "blendedOverlays": [{ "base": "game:block/overlay/rust/dripping1", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 180, "blendedOverlays": [{ "base": "game:block/overlay/rust/dripping2", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 270, "blendedOverlays": [{ "base": "game:block/overlay/rust/dripping3", "blendMode": "Overlay" }] }
+		]}},
+		"*-cracked": { "stone": { "base": "game:block/stone/polishedrock-old/inside/{rock}",
+			"alternates": [
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 90, "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked1", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 180, "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked3", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 270, "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked7", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 90, "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked9", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 180, "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked11", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/polishedrock-old/inside/{rock}", "rotation": 270, "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked17", "blendMode": "Overlay" }] }
+		]}},
+		"*-kimberlite-weathered": { "stone": { "base": "game:block/stone/rock/{rock}1", "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked1", "blendMode": "Overlay" }],
+			"alternates": [
+			{ "base": "game:block/stone/rock/{rock}1", "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked2", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/rock/{rock}1", "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked3", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/rock/{rock}1", "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked4", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/rock/{rock}1", "rotation": 90, "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked5", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/rock/{rock}1", "rotation": 180, "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked6", "blendMode": "Overlay" }] }
+		]}},
+		"*-suevite-weathered": { "stone": { "base": "game:block/stone/rock/{rock}1", "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked1", "blendMode": "Overlay" }],
+			"alternates": [
+			{ "base": "game:block/stone/rock/{rock}2", "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked2", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/rock/{rock}1", "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked3", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/rock/{rock}2", "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked4", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/rock/{rock}1", "rotation": 90, "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked5", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/rock/{rock}2", "rotation": 180, "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked6", "blendMode": "Overlay" }] }
+		]}},
+		"*-weathered": { "stone": { "base": "game:block/stone/rock/{rock}1", "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked1", "blendMode": "Overlay" }],
+			"alternates": [
+			{ "base": "game:block/stone/rock/{rock}2", "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked2", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/rock/{rock}3", "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked3", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/rock/{rock}4", "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked4", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/rock/{rock}3", "rotation": 90, "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked5", "blendMode": "Overlay" }] },
+			{ "base": "game:block/stone/rock/{rock}2", "rotation": 180, "blendedOverlays": [{ "base": "game:block/overlay/cracked/cracked6", "blendMode": "Overlay" }] }
+		]}},
+		"*-suevite-clean": { "stone": { "base": "game:block/stone/rock/{rock}1",
+			"alternates": [
+			{ "base": "game:block/stone/rock/{rock}2", "rotation": 90 },
+			{ "base": "game:block/stone/rock/{rock}1", "rotation": 180 },
+			{ "base": "game:block/stone/rock/{rock}2", "rotation": 270 }
+		]}},
+		"*-kimberlite-clean": { "stone": { "base": "game:block/stone/rock/{rock}1",
+			"alternates": [
+			{ "base": "game:block/stone/rock/{rock}1", "rotation": 90 },
+			{ "base": "game:block/stone/rock/{rock}1", "rotation": 180 },
+			{ "base": "game:block/stone/rock/{rock}1", "rotation": 270 }
+		]}},
+		"*-clean": { "stone": { "base": "game:block/stone/rock/{rock}1",
+			"alternates": [
+			{ "base": "game:block/stone/rock/{rock}2", "rotation": 90 },
+			{ "base": "game:block/stone/rock/{rock}3", "rotation": 180 },
+			{ "base": "game:block/stone/rock/{rock}4", "rotation": 270 }
+		]}}
+	},
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "apelanterns": ["*"] },
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"blockmaterial": "Stone",
+	"lightAbsorption": 0,
+	"lightHsvByType": { 
+		"*-kodai-maru-yukimi-*": [8,3,13],
+		"*-ikekomi-gata-oribe-*": [9,3,14],
+		"*-okunoin-daitsuki-*": [8,3,12],
+		"*": [7,4,12]
+	},
+	"vertexFlags": { "*": { "glowLevel": 0 }
+	},
+	"particlePropertiesbyType": {
+		"*-yukimi-doro-*":[
+		{
+			"__comment": "Ember cubicles",
+			"hsvaColor": [{ "avg": 20, "var": 20 }, { "avg": 255, "var": 50 }, { "avg": 255, "var": 50 },  { "avg": 255, "var": 0 }],
+			"gravityEffect": { "dist": "invexp", "avg": -0.07, "var": 0.4 },
+			"posOffset": [{ "avg": 0, "var": 0.1 }, { "avg": -0.3, "var": 0 }, { "avg": 0, "var": 0.1 }],
+			"velocity": [ { "avg": 0, "var": 0.15 }, { "avg": 0.5, "var": 0.1 }, { "avg": 0, "var": 0.15 }],
+			"quantity": { "avg": 0.015 },
+			"size": { "avg": 0.1, "var": 0 },
+			"sizeEvolve": { "transform": "quadratic", "factor": -0.7 },
+			"lifeLength": { "avg": 1.5 },
+			"vertexFlags": 128,
+			"windAffectednes": 0.2
+		},
+		{
+			"__comment": "Smoke quads",
+			"hsvaColor": [{ "avg": 0, "var": 0 }, { "avg": 0, "var": 0 }, { "avg": 40, "var": 30 },  { "avg": 220, "var": 50 }],
+			"opacityEvolve": { "transform": "quadratic", "factor": -16 },
+			"gravityEffect": { "avg": 0, "var": 0 },
+			"posOffset": [{ "avg": 0, "var": 0.1 }, { "avg": -0.3, "var": 0 }, { "avg": 0, "var": 0.1 }],
+			"velocity": [ { "avg": 0, "var": 0.025 }, { "avg": 0.15, "var": 0.1 }, { "avg": 0, "var": 0.025 }],
+			"quantity": { "avg": 0.02 },
+			"size": { "avg": 0.05, "var": 0.05 },
+			"sizeEvolve": { "transform": "linear", "factor": 0.5 },
+			"particleModel": "Quad",
+			"windAffectednes": 0.7
+		},
+		{
+			"__comment": "Fire quads",
+			"hsvaColor": [{ "avg": 20, "var": 20 }, { "avg": 255, "var": 50 }, { "avg": 255, "var": 50 },  { "avg": 255, "var": 0 }],
+			"opacityEvolve": { "transform": "quadratic", "factor": -16 },
+			"gravityEffect": { "avg": 0, "var": 0 },
+			"posOffset": [{ "avg": 0, "var": 0.12 }, { "avg": -0.3, "var": 0 }, { "avg": 0, "var": 0.12 }],
+			"velocity": [ { "avg": 0, "var": 0.025 }, { "avg": 0.18, "var": 0.07 }, { "avg": 0, "var": 0.025 }],
+			"quantity": { "avg": 0.04 },
+			"size": { "avg": 0.05, "var": 0.05 },
+			"lifeLength": { "avg": 0.25 },
+			"sizeEvolve": { "transform": "linear", "factor": 0.25 },
+			"particleModel": "Quad",
+			"vertexFlags": 128,
+			"windAffectednes": 0.5
+			}
+		],
+		"*-kodai-maru-yukimi-*":[
+		{
+			"__comment": "Ember cubicles",
+			"hsvaColor": [{ "avg": 20, "var": 20 }, { "avg": 255, "var": 50 }, { "avg": 255, "var": 50 },  { "avg": 255, "var": 0 }],
+			"gravityEffect": { "dist": "invexp", "avg": -0.07, "var": 0.4 },
+			"posOffset": [{ "avg": 0, "var": 0.1 }, { "avg": -0.2, "var": 0 }, { "avg": 0, "var": 0.1 }],
+			"velocity": [ { "avg": 0, "var": 0.15 }, { "avg": 0.5, "var": 0.1 }, { "avg": 0, "var": 0.15 }],
+			"quantity": { "avg": 0.015 },
+			"size": { "avg": 0.1, "var": 0 },
+			"sizeEvolve": { "transform": "quadratic", "factor": -0.7 },
+			"lifeLength": { "avg": 1.5 },
+			"vertexFlags": 128,
+			"windAffectednes": 0.2
+		},
+		{
+			"__comment": "Smoke quads",
+			"hsvaColor": [{ "avg": 0, "var": 0 }, { "avg": 0, "var": 0 }, { "avg": 40, "var": 30 },  { "avg": 220, "var": 50 }],
+			"opacityEvolve": { "transform": "quadratic", "factor": -16 },
+			"gravityEffect": { "avg": 0, "var": 0 },
+			"posOffset": [{ "avg": 0, "var": 0.1 }, { "avg": -0.2, "var": 0 }, { "avg": 0, "var": 0.1 }],
+			"velocity": [ { "avg": 0, "var": 0.025 }, { "avg": 0.15, "var": 0.1 }, { "avg": 0, "var": 0.025 }],
+			"quantity": { "avg": 0.02 },
+			"size": { "avg": 0.05, "var": 0.05 },
+			"sizeEvolve": { "transform": "linear", "factor": 0.5 },
+			"particleModel": "Quad",
+			"windAffectednes": 0.7
+		},
+		{
+			"__comment": "Fire quads",
+			"hsvaColor": [{ "avg": 20, "var": 20 }, { "avg": 255, "var": 50 }, { "avg": 255, "var": 50 },  { "avg": 255, "var": 0 }],
+			"opacityEvolve": { "transform": "quadratic", "factor": -16 },
+			"gravityEffect": { "avg": 0, "var": 0 },
+			"posOffset": [{ "avg": 0, "var": 0.12 }, { "avg": -0.2, "var": 0 }, { "avg": 0, "var": 0.12 }],
+			"velocity": [ { "avg": 0, "var": 0.025 }, { "avg": 0.18, "var": 0.07 }, { "avg": 0, "var": 0.025 }],
+			"quantity": { "avg": 0.04 },
+			"size": { "avg": 0.05, "var": 0.05 },
+			"lifeLength": { "avg": 0.25 },
+			"sizeEvolve": { "transform": "linear", "factor": 0.25 },
+			"particleModel": "Quad",
+			"vertexFlags": 128,
+			"windAffectednes": 0.5
+			}
+		],
+		"*-ikekomi-gata-oribe-*":[
+		{
+			"__comment": "Ember cubicles",
+			"hsvaColor": [{ "avg": 20, "var": 20 }, { "avg": 255, "var": 50 }, { "avg": 255, "var": 50 },  { "avg": 255, "var": 0 }],
+			"gravityEffect": { "dist": "invexp", "avg": -0.07, "var": 0.4 },
+			"posOffset": [{ "avg": 0, "var": 0.1 }, { "avg": 0.2, "var": 0 }, { "avg": 0, "var": 0.1 }],
+			"velocity": [ { "avg": 0, "var": 0.15 }, { "avg": 0.5, "var": 0.1 }, { "avg": 0, "var": 0.15 }],
+			"quantity": { "avg": 0.015 },
+			"size": { "avg": 0.1, "var": 0 },
+			"sizeEvolve": { "transform": "quadratic", "factor": -0.7 },
+			"lifeLength": { "avg": 1.5 },
+			"vertexFlags": 128,
+			"windAffectednes": 0.2
+		},
+		{
+			"__comment": "Smoke quads",
+			"hsvaColor": [{ "avg": 0, "var": 0 }, { "avg": 0, "var": 0 }, { "avg": 40, "var": 30 },  { "avg": 220, "var": 50 }],
+			"opacityEvolve": { "transform": "quadratic", "factor": -16 },
+			"gravityEffect": { "avg": 0, "var": 0 },
+			"posOffset": [{ "avg": 0, "var": 0.1 }, { "avg": 0.2, "var": 0 }, { "avg": 0, "var": 0.1 }],
+			"velocity": [ { "avg": 0, "var": 0.025 }, { "avg": 0.15, "var": 0.1 }, { "avg": 0, "var": 0.025 }],
+			"quantity": { "avg": 0.02 },
+			"size": { "avg": 0.05, "var": 0.05 },
+			"sizeEvolve": { "transform": "linear", "factor": 0.5 },
+			"particleModel": "Quad",
+			"windAffectednes": 0.7
+		},
+		{
+			"__comment": "Fire quads",
+			"hsvaColor": [{ "avg": 20, "var": 20 }, { "avg": 255, "var": 50 }, { "avg": 255, "var": 50 },  { "avg": 255, "var": 0 }],
+			"opacityEvolve": { "transform": "quadratic", "factor": -16 },
+			"gravityEffect": { "avg": 0, "var": 0 },
+			"posOffset": [{ "avg": 0, "var": 0.12 }, { "avg": 0.2, "var": 0 }, { "avg": 0, "var": 0.12 }],
+			"velocity": [ { "avg": 0, "var": 0.025 }, { "avg": 0.18, "var": 0.07 }, { "avg": 0, "var": 0.025 }],
+			"quantity": { "avg": 0.04 },
+			"size": { "avg": 0.05, "var": 0.05 },
+			"lifeLength": { "avg": 0.25 },
+			"sizeEvolve": { "transform": "linear", "factor": 0.25 },
+			"particleModel": "Quad",
+			"vertexFlags": 128,
+			"windAffectednes": 0.5
+			}
+		],
+		"*-okunoin-daitsuki-*":[
+		{
+			"__comment": "Ember cubicles",
+			"hsvaColor": [{ "avg": 20, "var": 20 }, { "avg": 255, "var": 50 }, { "avg": 255, "var": 50 },  { "avg": 255, "var": 0 }],
+			"gravityEffect": { "dist": "invexp", "avg": -0.07, "var": 0.4 },
+			"posOffset": [{ "avg": 0, "var": 0.1 }, { "avg": 0.3, "var": 0 }, { "avg": 0, "var": 0.1 }],
+			"velocity": [ { "avg": 0, "var": 0.15 }, { "avg": 0.5, "var": 0.1 }, { "avg": 0, "var": 0.15 }],
+			"quantity": { "avg": 0.015 },
+			"size": { "avg": 0.1, "var": 0 },
+			"sizeEvolve": { "transform": "quadratic", "factor": -0.7 },
+			"lifeLength": { "avg": 1.5 },
+			"vertexFlags": 128,
+			"windAffectednes": 0.2
+		},
+		{
+			"__comment": "Smoke quads",
+			"hsvaColor": [{ "avg": 0, "var": 0 }, { "avg": 0, "var": 0 }, { "avg": 40, "var": 30 },  { "avg": 220, "var": 50 }],
+			"opacityEvolve": { "transform": "quadratic", "factor": -16 },
+			"gravityEffect": { "avg": 0, "var": 0 },
+			"posOffset": [{ "avg": 0, "var": 0.1 }, { "avg": 0.3, "var": 0 }, { "avg": 0, "var": 0.1 }],
+			"velocity": [ { "avg": 0, "var": 0.025 }, { "avg": 0.15, "var": 0.1 }, { "avg": 0, "var": 0.025 }],
+			"quantity": { "avg": 0.02 },
+			"size": { "avg": 0.05, "var": 0.05 },
+			"sizeEvolve": { "transform": "linear", "factor": 0.5 },
+			"particleModel": "Quad",
+			"windAffectednes": 0.7
+		},
+		{
+			"__comment": "Fire quads",
+			"hsvaColor": [{ "avg": 20, "var": 20 }, { "avg": 255, "var": 50 }, { "avg": 255, "var": 50 },  { "avg": 255, "var": 0 }],
+			"opacityEvolve": { "transform": "quadratic", "factor": -16 },
+			"gravityEffect": { "avg": 0, "var": 0 },
+			"posOffset": [{ "avg": 0, "var": 0.12 }, { "avg": 0.3, "var": 0 }, { "avg": 0, "var": 0.12 }],
+			"velocity": [ { "avg": 0, "var": 0.025 }, { "avg": 0.18, "var": 0.07 }, { "avg": 0, "var": 0.025 }],
+			"quantity": { "avg": 0.04 },
+			"size": { "avg": 0.05, "var": 0.05 },
+			"lifeLength": { "avg": 0.25 },
+			"sizeEvolve": { "transform": "linear", "factor": 0.25 },
+			"particleModel": "Quad",
+			"vertexFlags": 128,
+			"windAffectednes": 0.5
+			}
+		]
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"replaceable": 90,
+	"resistance": 8,
+	"sounds": {
+		"walk": "game:walk/stone",
+		"byTool": {
+			"Pickaxe": { "hit": "game:block/rock-hit-pickaxe", "break": "game:block/rock-break-pickaxe" }
+		}
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0.3, "y": -0.1, "z": 0 },
+		"rotation": { "x": 0, "y": -45, "z": 0 },
+		"scale": 1.18
+	},
+	"guiTransformByType": {
+		"*-yukimi-doro-*": { "rotation": { "x": -20, "y": -160, "z": 0 }, "origin": { "x": 0.5, "y": 0.5, "z": 0.5 }, "scale": 1.28 },
+		"*-kodai-maru-yukimi-*": { "rotation": { "x": -20, "y": -160, "z": 0 }, "origin": { "x": 0.5, "y": 0.7, "z": 0.5 }, "scale": 1.28 },
+		"*-ikekomi-gata-oribe-*": { "rotation": { "x": -20, "y": -160, "z": 0 }, "origin": { "x": 0.5, "y": 1, "z": 0.5 }, "scale": 1.25 },
+		"*-okunoin-daitsuki-*": { "rotation": { "x": -20, "y": -160, "z": 0 }, "origin": { "x": 0.5, "y": 1, "z": 0.5 }, "scale": 1.25 }
+	},
+	"tpHandTransformByType": {
+		"*-okunoin-daitsuki-*": { "translation": { "x": -0.5, "y": -0.99, "z": -0.78 }, "rotation": { "x": 0, "y": 7, "z": -90 }, "scale": 0.45 },
+		"*-ikekomi-gata-oribe-*": { "translation": { "x": -0.5, "y": -0.99, "z": -0.78 }, "rotation": { "x": 0, "y": 7, "z": -90 }, "scale": 0.45 },
+		"*-yukimi-doro-*": { "translation": { "x": -0.8, "y": -0.29, "z": -0.68 }, "rotation": { "x": 12, "y": 7, "z": -77 }, "origin": { "x": 0.5,"y": 0.2,"z": 0.5 }, "scale": 0.45 },
+		"*-kodai-maru-yukimi-*": { "translation": { "x": -0.5, "y": -0.89, "z": -0.88 }, "rotation": { "x": 0, "y": 7, "z": -90 }, "origin": { "x": 0.5,"y": 0.3,"z": 0.5 }, "scale": 0.45 },
+		"*": { "translation": { "x": -0.5, "y": -0.99, "z": -1.28 }, "rotation": { "x": 0, "y": 7, "z": -90 }, "scale": 0.45 }
+	},
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2
+	},
+	"selectionBoxByType": {
+		"*-yukimi-doro-*": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.8997, "z2": 0.9375 },
+		"*-kodai-maru-yukimi-*": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1.18, "z2": 1 },
+		"*-ikekomi-gata-oribe-*": { "x1": 0.1376, "y1": 0, "z1": 0.1376, "x2": 0.8624, "y2": 1.4433, "z2": 0.8624 },
+		"*-okunoin-daitsuki-*": { "x1": 0.1376, "y1": 0, "z1": 0.1376, "x2": 0.8624, "y2": 1.4433, "z2": 0.8624 }
+	},
+	"collisionBoxByType": {
+		"*-yukimi-doro-*": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 1, "z2": 0.75 },
+		"*-kodai-maru-yukimi-*": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 1.18, "z2": 0.75 },
+		"*-ikekomi-gata-oribe-*": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 1.25, "y2": 1.45, "z2": 0.75 },
+		"*-okunoin-daitsuki-*": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 1.25, "y2": 1.45, "z2": 0.75 }
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"apelanterns:apelanternsv1.1.2-v1.2.0": [
+
+		"/bir remapq apelanterns:apemetallantern-on-modern1-plain-l1-up apelanterns:apemetallantern-on-modern1-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-on-modern1-plain-l1-down apelanterns:apemetallantern-on-modern1-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-on-modern1-plain-l1-north apelanterns:apemetallantern-on-modern1-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-on-modern1-plain-l1-south apelanterns:apemetallantern-on-modern1-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-on-modern1-plain-l1-east apelanterns:apemetallantern-on-modern1-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-on-modern1-plain-l1-west apelanterns:apemetallantern-on-modern1-plain-west force",
+
+		"/bir remapq apelanterns:apemetallantern-on-modern2-plain-l1-up apelanterns:apemetallantern-on-modern2-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-on-modern2-plain-l1-down apelanterns:apemetallantern-on-modern2-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-on-modern2-plain-l1-north apelanterns:apemetallantern-on-modern2-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-on-modern2-plain-l1-south apelanterns:apemetallantern-on-modern2-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-on-modern2-plain-l1-east apelanterns:apemetallantern-on-modern2-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-on-modern2-plain-l1-west apelanterns:apemetallantern-on-modern2-plain-west force",
+
+		"/bir remapq apelanterns:apemetallantern-on-gothic1-plain-l1-up apelanterns:apemetallantern-on-gothic1-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-on-gothic1-plain-l1-down apelanterns:apemetallantern-on-gothic1-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-on-gothic1-plain-l1-north apelanterns:apemetallantern-on-gothic1-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-on-gothic1-plain-l1-south apelanterns:apemetallantern-on-gothic1-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-on-gothic1-plain-l1-east apelanterns:apemetallantern-on-gothic1-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-on-gothic1-plain-l1-west apelanterns:apemetallantern-on-gothic1-plain-west force",
+
+		"/bir remapq apelanterns:apemetallantern-on-medieval2-plain-l1-up apelanterns:apemetallantern-on-medieval2-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval2-plain-l1-down apelanterns:apemetallantern-on-medieval2-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval2-plain-l1-north apelanterns:apemetallantern-on-medieval2-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval2-plain-l1-south apelanterns:apemetallantern-on-medieval2-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval2-plain-l1-east apelanterns:apemetallantern-on-medieval2-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval2-plain-l1-west apelanterns:apemetallantern-on-medieval2-plain-west force",
+
+		"/bir remapq apelanterns:apemetallantern-on-medieval3-plain-l1-up apelanterns:apemetallantern-on-medieval3-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval3-plain-l1-down apelanterns:apemetallantern-on-medieval3-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval3-plain-l1-north apelanterns:apemetallantern-on-medieval3-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval3-plain-l1-south apelanterns:apemetallantern-on-medieval3-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval3-plain-l1-east apelanterns:apemetallantern-on-medieval3-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval3-plain-l1-west apelanterns:apemetallantern-on-medieval3-plain-west force",
+
+		"/bir remapq apelanterns:apemetallantern-on-medieval4-plain-l1-up apelanterns:apemetallantern-on-medieval4-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval4-plain-l1-down apelanterns:apemetallantern-on-medieval4-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval4-plain-l1-north apelanterns:apemetallantern-on-medieval4-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval4-plain-l1-south apelanterns:apemetallantern-on-medieval4-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval4-plain-l1-east apelanterns:apemetallantern-on-medieval4-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval4-plain-l1-west apelanterns:apemetallantern-on-medieval4-plain-west force",
+
+		"/bir remapq apelanterns:apemetallantern-on-medieval6-plain-l1-up apelanterns:apemetallantern-on-medieval6-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval6-plain-l1-down apelanterns:apemetallantern-on-medieval6-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval6-plain-l1-north apelanterns:apemetallantern-on-medieval6-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval6-plain-l1-south apelanterns:apemetallantern-on-medieval6-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval6-plain-l1-east apelanterns:apemetallantern-on-medieval6-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-on-medieval6-plain-l1-west apelanterns:apemetallantern-on-medieval6-plain-west force",
+
+
+		"/bir remapq apelanterns:apemetallantern-off-modern1-plain-l1-up apelanterns:apemetallantern-off-modern1-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-off-modern1-plain-l1-down apelanterns:apemetallantern-off-modern1-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-off-modern1-plain-l1-north apelanterns:apemetallantern-off-modern1-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-off-modern1-plain-l1-south apelanterns:apemetallantern-off-modern1-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-off-modern1-plain-l1-east apelanterns:apemetallantern-off-modern1-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-off-modern1-plain-l1-west apelanterns:apemetallantern-off-modern1-plain-west force",
+
+		"/bir remapq apelanterns:apemetallantern-off-modern2-plain-l1-up apelanterns:apemetallantern-off-modern2-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-off-modern2-plain-l1-down apelanterns:apemetallantern-off-modern2-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-off-modern2-plain-l1-north apelanterns:apemetallantern-off-modern2-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-off-modern2-plain-l1-south apelanterns:apemetallantern-off-modern2-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-off-modern2-plain-l1-east apelanterns:apemetallantern-off-modern2-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-off-modern2-plain-l1-west apelanterns:apemetallantern-off-modern2-plain-west force",
+
+		"/bir remapq apelanterns:apemetallantern-off-gothic1-plain-l1-up apelanterns:apemetallantern-off-gothic1-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-off-gothic1-plain-l1-down apelanterns:apemetallantern-off-gothic1-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-off-gothic1-plain-l1-north apelanterns:apemetallantern-off-gothic1-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-off-gothic1-plain-l1-south apelanterns:apemetallantern-off-gothic1-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-off-gothic1-plain-l1-east apelanterns:apemetallantern-off-gothic1-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-off-gothic1-plain-l1-west apelanterns:apemetallantern-off-gothic1-plain-west force",
+
+		"/bir remapq apelanterns:apemetallantern-off-medieval2-plain-l1-up apelanterns:apemetallantern-off-medieval2-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval2-plain-l1-down apelanterns:apemetallantern-off-medieval2-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval2-plain-l1-north apelanterns:apemetallantern-off-medieval2-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval2-plain-l1-south apelanterns:apemetallantern-off-medieval2-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval2-plain-l1-east apelanterns:apemetallantern-off-medieval2-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval2-plain-l1-west apelanterns:apemetallantern-off-medieval2-plain-west force",
+
+		"/bir remapq apelanterns:apemetallantern-off-medieval3-plain-l1-up apelanterns:apemetallantern-off-medieval3-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval3-plain-l1-down apelanterns:apemetallantern-off-medieval3-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval3-plain-l1-north apelanterns:apemetallantern-off-medieval3-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval3-plain-l1-south apelanterns:apemetallantern-off-medieval3-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval3-plain-l1-east apelanterns:apemetallantern-off-medieval3-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval3-plain-l1-west apelanterns:apemetallantern-off-medieval3-plain-west force",
+
+		"/bir remapq apelanterns:apemetallantern-off-medieval4-plain-l1-up apelanterns:apemetallantern-off-medieval4-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval4-plain-l1-down apelanterns:apemetallantern-off-medieval4-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval4-plain-l1-north apelanterns:apemetallantern-off-medieval4-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval4-plain-l1-south apelanterns:apemetallantern-off-medieval4-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval4-plain-l1-east apelanterns:apemetallantern-off-medieval4-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval4-plain-l1-west apelanterns:apemetallantern-off-medieval4-plain-west force",
+
+		"/bir remapq apelanterns:apemetallantern-off-medieval6-plain-l1-up apelanterns:apemetallantern-off-medieval6-plain-up force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval6-plain-l1-down apelanterns:apemetallantern-off-medieval6-plain-down force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval6-plain-l1-north apelanterns:apemetallantern-off-medieval6-plain-north force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval6-plain-l1-south apelanterns:apemetallantern-off-medieval6-plain-south force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval6-plain-l1-east apelanterns:apemetallantern-off-medieval6-plain-east force",
+		"/bir remapq apelanterns:apemetallantern-off-medieval6-plain-l1-west apelanterns:apemetallantern-off-medieval6-plain-west force"
+
+	]
+}

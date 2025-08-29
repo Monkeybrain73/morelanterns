@@ -1,0 +1,81 @@
+{
+	"code": "apepaperitem",
+	"class": "Block",
+	"storageFlags": 1,
+	"behaviors": [ { "name": "HorizontalOrientable" }, { "name": "RightClickPickup" } ],
+	"attributesByType": {
+		"*-chubs-north": { "handbook": { "include": true, "groupBy": ["apepaperitem-*"], "extraSections": [{ "title": "apepaperitem-handbook-help-title-chubs", "text": "apepaperitem-handbook-help-text-chubs" }] } },
+		"*-saxon-north": { "handbook": { "include": true, "groupBy": ["apepaperitem-*"], "extraSections": [{ "title": "apepaperitem-handbook-help-title-saxon", "text": "apepaperitem-handbook-help-text-saxon" }] } },
+		"*": { "handbook": { "exclude": true } }
+	},	
+	"variantgroups": [
+		{ "code": "type", "states": [ "chubs", "saxon"] },
+		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation", "name": "Something" }
+	],
+	"allowedVariants": [
+		"apepaperitem-chubs-*",
+		"apepaperitem-saxon-*"
+	],
+	"drawtype": "json",
+	"shape": { "base": "apelanterns:block/something-{type}", "rotateYByType": { "*-north": 0, "*-east": 270, "*-south": 180, "*-west": 90 }
+	},
+	"creativeinventory": { "general": ["*-north"], "decorative": ["*-north"] },
+	"blockmaterial": "Wood",
+	"lightAbsorption": 0,
+	"vertexFlags": { "*": { "glowLevel": 0 }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"replaceable": 1000,
+	"resistance": 200,
+	"sounds": {
+		"place": "creature/cat/purr",
+		"walk": "creature/cat/hiss",
+		"hit": "creature/cat/hiss",
+		"ambient": "creature/cat/purr",
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0.3, "y": -0.1, "z": 0 },
+		"rotation": { "x": 0, "y": -45, "z": 0 },
+		"scale": 1.18
+	},
+	"guiTransform": {
+		"rotation": { "x": -20, "y": -160, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+		"scale": 1.55
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.5, "y": -0.99, "z": -1.28 },
+		"rotation": { "x": 0, "y": 7, "z": -90 },
+		"scale": 0.45
+	},
+	"tpOffHandTransform": {
+		"translation": { "x": -0.6899, "y": -0.89, "z": -0.93 },
+		"rotation": { "x": 0, "y": -8, "z": -96 },
+		"scale": 0.55
+	},
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2
+	},
+	"selectionboxByType": {
+		"*-saxon-north": { "x1": 0.2752, "y1": 0.126, "z1": 0.124, "x2": 0.7248, "y2": 0.5625, "z2": 0.9375 },
+		"*-saxon-south": { "x1": 0.2752, "y1": 0.126, "z1": 0.0625, "x2": 0.7248, "y2": 0.5625, "z2": 0.876 },
+		"*-saxon-east": { "x1": 0.0625, "y1": 0.126, "z1": 0.2752, "x2": 0.8759, "y2": 0.5625, "z2": 0.7248 },
+		"*-saxon-west": { "x1": 0.124, "y1": 0.126, "z1": 0.2752, "x2": 0.9375, "y2": 0.5625, "z2": 0.7248 },
+		"*-chubs-north": { "x1": 0.25, "y1": 0, "z1": 0.1875, "x2": 0.75, "y2": 0.5625, "z2": 0.875, "rotateY": 0 },
+		"*-chubs-south": { "x1": 0.25, "y1": 0, "z1": 0.1875, "x2": 0.75, "y2": 0.5625, "z2": 0.875, "rotateY": 180 },
+		"*-chubs-east": { "x1": 0.25, "y1": 0, "z1": 0.1875, "x2": 0.75, "y2": 0.5625, "z2": 0.875, "rotateY": 270 },
+		"*-chubs-west": { "x1": 0.25, "y1": 0, "z1": 0.1875, "x2": 0.75, "y2": 0.5625, "z2": 0.875, "rotateY": 90 }
+	},
+	"collisionboxbytype": {
+		"*-north": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 1, "z2": 0.75, "rotateY": 0 },
+		"*-south": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 1, "z2": 0.75, "rotateY": 180 },
+		"*-east": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 1, "z2": 0.75, "rotateY": 270 },
+		"*-west": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 1, "z2": 0.75, "rotateY": 90 }
+	}
+}
