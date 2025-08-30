@@ -5,7 +5,7 @@
 		"ingredients": {
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -19,7 +19,7 @@
 		"ingredients": {
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -33,7 +33,7 @@
 		"ingredients": {
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -47,7 +47,7 @@
 		"ingredients": {
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -61,7 +61,7 @@
 		"ingredients": {
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -75,7 +75,7 @@
 		"ingredients": {
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -89,7 +89,7 @@
 		"ingredients": {
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -103,7 +103,7 @@
 		"ingredients": {
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -117,7 +117,7 @@
 		"ingredients": {
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -131,7 +131,7 @@
 		"ingredients": {
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -145,7 +145,7 @@
 		"ingredients": {
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -159,7 +159,7 @@
 		"ingredients": {
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -174,7 +174,7 @@
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
 			"E": { "type": "item", "code": "game:saw-*", "isTool": true },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -188,7 +188,7 @@
 		"ingredients": {
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -203,7 +203,7 @@
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
 			"E": { "type": "item", "code": "game:saw-*", "isTool": true },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,
@@ -218,7 +218,7 @@
 			"A": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
 			"B": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
 			"E": { "type": "item", "code": "game:saw-*", "isTool": true },
-			"C": { "type": "item", "code": "game:plumbandsquare", "isTool": true },
+			"C": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"D": { "type": "block", "code": "game:rock-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
 		},
 		"width": 3,

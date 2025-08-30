@@ -7,7 +7,7 @@
 			"B": { "type": "block", "code": "apelanterns:lanternparts-yukimi-kasa-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
 			"C": { "type": "block", "code": "apelanterns:lanternparts-yukimi-hibukuro-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
 			"D": { "type": "block", "code": "apelanterns:lanternparts-yukimi-ashi-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"P": { "type": "item", "code": "game:plumbandsquare" },
+			"P": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"L": { "type": "item", "code": "game:candle", "quantity": 1 }
 		},
 		"width": 3,
@@ -23,7 +23,7 @@
 			"B": { "type": "block", "code": "apelanterns:lanternparts-maru-kasa-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
 			"C": { "type": "block", "code": "apelanterns:lanternparts-maru-hibukuro-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
 			"D": { "type": "block", "code": "apelanterns:lanternparts-yukimi-ashi-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"P": { "type": "item", "code": "game:plumbandsquare" },
+			"P": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"L": { "type": "item", "code": "game:candle", "quantity": 1 }
 		},
 		"width": 3,
@@ -40,7 +40,7 @@
 			"C": { "type": "block", "code": "apelanterns:lanternparts-ikekomi-hibukuro-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
 			"D": { "type": "block", "code": "apelanterns:lanternparts-ikekomi-chuudai-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
 			"E": { "type": "block", "code": "apelanterns:lanternparts-ikekomi-sao-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"P": { "type": "item", "code": "game:plumbandsquare" },
+			"P": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"L": { "type": "item", "code": "game:candle", "quantity": 1 }
 		},
 		"width": 3,
@@ -58,7 +58,7 @@
 			"D": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-chuudai-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
 			"E": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-sao-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
 			"F": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-kiso-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"P": { "type": "item", "code": "game:plumbandsquare" },
+			"P": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
 			"L": { "type": "item", "code": "game:candle", "quantity": 1 }
 		},
 		"width": 3,
