@@ -1,0 +1,146 @@
+{
+	"game:tabname-apelanterns": "Больше фонарей",
+	"game:tabname-apepaperlanterns": "Бумажные фонари",
+	"game:tabname-apefloatinglanterns": "Плавающие фонари",
+	"game:tabname-apemetallanterns": "Металлические фонари",
+	"game:tabname-apestonelanterns": "Каменные фонари",
+
+	"lanterncolor-plain": "Обычный",
+	"lanterncolor-red": "Красный",
+	"lanterncolor-green": "Зелёный",
+	"lanterncolor-blue": "Синий",
+	"lanterncolor-yellow": "Жёлтый",
+	"lanterncolor-orange": "Оранжевый",
+	"lanterncolor-brown": "Коричневый",
+	"lanterncolor-purple": "Фиолетовый",
+	"lanterncolor-pink": "Розовый",
+	"lanterncolor-cyan": "Бирюзовый",
+	"lanterncolor-woad": "Индиго",
+
+	"paperlantern-on": "Зажжённый",
+	"paperlantern-off": "Потухший",
+	"paperlantern-basic": "Бумажный фонарь",
+	"paperlantern-chinese": "Украшенный китайский бумажный фонарь",
+	"paperlantern-chinese2": "Китайский бумажный фонарь",
+	"paperlantern-medieval1small": "Фонарь в средневековом стиле",
+	"block-apepaperlantern-off-*": "Потухший",
+	"block-apepaperlantern-on-*": "Зажжённый",
+
+
+	"block-apemetallantern-on-modern1-plain-*": "Фонарь в современном стиле (Зажжённый)",
+	"block-apemetallantern-on-modern2-plain-*": "Высокий фонарь в современном стиле (Зажжённый)",
+	"block-apemetallantern-on-gothic1-plain-*": "Фонарь в готическом стиле (Зажжённый)",
+	"block-apemetallantern-on-medieval2-plain-*": "Фонарь в средневековом стиле (Зажжённый)",
+	"block-apemetallantern-on-medieval3-plain-*": "Фонарь в средневековом стиле (Зажжённый)",
+	"block-apemetallantern-on-medieval4-plain-*": "Фонарь в средневековом стиле (Зажжённый)",
+	"block-apemetallantern-on-medieval6-plain-*": "Фонарь в средневековом стиле (Зажжённый)",
+	"block-apemetallantern-off-modern1-plain-*": "Фонарь в современном стиле (Потухший)",
+	"block-apemetallantern-off-modern2-plain-*": "Высокий фонарь в современном стиле (Потухший)",
+	"block-apemetallantern-off-gothic1-plain-*": "Фонарь в готическом стиле (Потухший)",
+	"block-apemetallantern-off-medieval2-plain-*": "Фонарь в средневековом стиле (Потухший)",
+	"block-apemetallantern-off-medieval3-plain-*": "Фонарь в средневековом стиле (Потухший)",
+	"block-apemetallantern-off-medieval4-plain-*": "Фонарь в средневековом стиле (Потухший)",
+	"block-apemetallantern-off-medieval6-plain-*": "Фонарь в средневековом стиле (Потухший)",
+
+	"item-colouredpaper-parchment-blue": "Пергамент (Синий)",
+	"item-colouredpaper-parchment-red": "Пергамент (Красный)",
+	"item-colouredpaper-parchment-green": "Пергамент (Зелёный)",
+	"item-colouredpaper-parchment-yellow": "Пергамент (Жёлтый)",
+	"item-colouredpaper-parchment-orange": "Пергамент (Оранжевый)",
+	"item-colouredpaper-parchment-brown": "Пергамент (Коричневый)",
+	"item-colouredpaper-parchment-purple": "Пергамент (Фиолетовый)",
+	"item-colouredpaper-parchment-pink": "Пергамент (Розовый)",
+	"item-colouredpaper-parchment-cyan": "Пергамент (Бирюзовый)",
+	"item-colouredpaper-parchment-woad": "Пергамент (Индиго)",
+
+	"lanternparts-kiso": "Основание фонаря",
+	"lanternparts-sao": "Столб фонаря",
+	"lanternparts-ashi": "Основание фонаря с ножками",
+	"lanternparts-chuudai": "Платформа топки фонаря",
+	"lanternparts-hibukuro": "Топка фонаря",
+	"lanternparts-kasa": "Крыша фонаря",
+	"lanternparts-houju": "Украшение крыши фонаря",
+
+	"block-lanternparts-*-kiso-*": "Основание фонаря",
+	"block-lanternparts-*-sao-*": "Столб фонаря",
+	"block-lanternparts-*-ashi-*": "Основание фонаря с ножками",
+	"block-lanternparts-*-chuudai-*": "Платформа топки фонаря",
+	"block-lanternparts-*-hibukuro-*": "Топка фонаря",
+	"block-lanternparts-*-kasa-*": "Крыша фонаря",
+	"block-lanternparts-*-houju-*": "Украшение крыши фонаря",
+
+
+	"lanternparts-style-yukimi": "Юкими",
+	"lanternparts-style-maru": "Кодай Мару Юкими",
+	"lanternparts-style-ikekomi": "Икэкоми",
+	"lanternparts-style-daitsuki": "Дайцуки",
+
+
+	"stonelantern-yukimi-doro": "Юкими Доро",
+	"stonelantern-kodai-maru-yukimi": "Кодай Мару Юкими Доро",
+	"stonelantern-ikekomi-gata-oribe": "Орібэ Икэкоми Доро",
+	"stonelantern-okunoin-daitsuki": "Окуноин Дайцуки Доро",
+
+
+	"apestonelantern-clean": "новый",
+	"apestonelantern-weathered": "потёртый",
+	"apestonelantern-cracked": "треснувший",
+	"apestonelantern-mossy": "покрытый мхом",
+	"apestonelantern-rust": "ржавый",
+
+	"block-apestonelantern-*-*-*-clean": "новый",
+	"block-apestonelantern-*-*-*-weathered": "потёртый",
+	"block-apestonelantern-*-*-*-cracked": "треснувший",
+	"block-apestonelantern-*-*-*-mossy": "покрытый мхом",
+	"block-apestonelantern-*-*-*-rust": "ржавый",
+
+
+	"game:apestonelantern-handbook-help-title-yukimi-doro": "Юкими Доро",
+	"game:apestonelantern-handbook-help-title-kodai-maru-yukimi": "Кодай Мару Юкими Доро",
+	"game:apestonelantern-handbook-help-title-ikekomi-gata-oribe": "Икэкоми Доро",
+	"game:apestonelantern-handbook-help-title-daitsuki": "Дайцуки Доро",
+
+	"game:apestonelantern-handbook-help-text-yukimi": "<br>Традиционный японский садовый фонарь, часто называемый «фонарь для наблюдения за снегом». Эти низкие, приземистые фонари имеют широкие плоские крыши, специально сделанные для того, чтобы удерживать снег. Их форма защищает топку внизу. Такой гранитный фонарь часто используется в восточных композициях с водоёмами и должен подбираться с учётом пропорций выбранного водоёма.",
+	"game:apestonelantern-handbook-help-text-oribe": "<br>Традиционный японский садовый фонарь, также известный как «фонарь, вкопанный в землю». Орібэ-Гата — самый известный дизайн Икэкоми-Гата. Отличается широкой, раскидистой крышей и более узким основанием, часто украшен геометрическими узорами или цветочными мотивами. Предназначен для установки прямо в землю.",
+	"game:apestonelantern-handbook-help-text-daitsuki": "<br>Традиционный японский храмовый фонарь. «Окуноин» означает священную зону в глубине святилища, где хранятся важные или скрытые статуи Будды. Фонари, установленные в таких укромных местах, называются фонарями стиля Окуноин. Отличаются широкой, раскидистой крышей с «вараби» и украшенным основанием, часто декорированным геометрическими узорами или цветочными мотивами.",
+
+	"block-handbooktitle-apestonelantern-yukimi-doro-*": "Юкими Доро",
+	"block-handbooktitle-apestonelantern-kodai-maru-yukimi-*": "Кодай Мару Юкими Доро",
+	"block-handbooktitle-apestonelantern-ikekomi-gata-oribe-*": "Икэкоми Доро",
+	"block-handbooktitle-apestonelantern-okunoin-daitsuki-*": "Юкими Доро",
+	"block-handbooktext-apestonelantern-yukimi-doro-*": "<br>Традиционный японский садовый фонарь, часто называемый «фонарь для наблюдения за снегом». Эти низкие, приземистые фонари имеют широкие плоские крыши, специально сделанные для того, чтобы удерживать снег. Их форма защищает топку внизу. Такой гранитный фонарь часто используется в восточных композициях с водоёмами и должен подбираться с учётом пропорций выбранного водоёма.",
+	"block-handbooktext-apestonelantern-kodai-maru-yukimi-*": "<br>Традиционный японский садовый фонарь, часто называемый «фонарь для наблюдения за снегом». Эти низкие, приземистые фонари имеют широкие плоские крыши, специально сделанные для того, чтобы удерживать снег. Их форма защищает топку внизу. Такой гранитный фонарь часто используется в восточных композициях с водоёмами и должен подбираться с учётом пропорций выбранного водоёма.",
+	"block-handbooktext-apestonelantern-ikekomi-gata-oribe-*": "<br>Традиционный японский садовый фонарь, также известный как «фонарь, вкопанный в землю». Орібэ-Гата — самый известный дизайн Икэкоми-Гата. Отличается широкой, раскидистой крышей и более узким основанием, часто украшен геометрическими узорами или цветочными мотивами. Предназначен для установки прямо в землю.",
+	"block-handbooktext-apestonelantern-okunoin-daitsuki-*": "<br>Традиционный японский храмовый фонарь. «Окуноин» означает священную зону в глубине святилища, где хранятся важные или скрытые статуи Будды. Фонари, установленные в таких укромных местах, называются фонарями стиля Окуноин. Отличаются широкой, раскидистой крышей с «вараби» и украшенным основанием, часто декорированным геометрическими узорами или цветочными мотивами.",
+
+
+	"blockhelp-behavior-dimmable-ctrl": "Приглушить свет",
+	"dimmable-help": "Ctrl + ПКМ, чтобы приглушить свет",
+	"rightclickpickup-help": "ПКМ, чтобы подобрать",
+
+	"block-lightlevel": "Уровень освещения:",
+	"lightl1": "Яркий",
+	"lightl2": "Обычный",
+	"lightl3": "Тусклый",
+	"lightl4": "Мягкий",
+	
+
+	"block-floatinglantern-*": "Плавающий фонарь",
+	"blockdesc-floatinglantern-*": "Установите прямо на воду",
+	"floatinglantern": "Плавающий фонарь",
+	"floatinglantern-floating1": "Квадратный",
+	"floatinglantern-floating2": "Восьмиугольный",
+	"floatinglantern-floating3": "Лодка",
+	"floatinglantern-floating4": "Звезда",
+
+
+	"block-apepaperitem-chubs-*": "Чаббс",
+	"block-apepaperitem-saxon-*": "Саксон",
+	"game:apepaperitem-handbook-help-title-chubs": "Чаббс",
+	"game:apepaperitem-handbook-help-title-saxon": "Саксон",
+	"game:apepaperitem-handbook-help-text-chubs": "<br>Нуждается в большом количестве обнимашек, вкусняшек и почесываний носика.<br>С радостью устроится в твоих руках или прямо на клавиатуре.<br>Требует мирового господства, жареной курочки и чистого лотка.",
+	"game:apepaperitem-handbook-help-text-saxon": "<br><strong><i>Старик</i></strong><br>Владыка и правитель дома.<br>",
+	
+	"game:item-dye-cyan": "Бирюзовый краситель",
+	"game:incontainer-item-dye-cyan": "Бирюзовый краситель"
+}

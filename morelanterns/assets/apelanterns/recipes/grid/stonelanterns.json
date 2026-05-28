@@ -1,69 +1,1790 @@
 [
 	{
-		"name": "yukimi-doro",
+		"name": "yukimi-doro-clean",
 		"ingredientPattern": "ABP,CL_,D__",
 		"ingredients": {
-			"A": { "type": "block", "code": "apelanterns:lanternparts-yukimi-houju-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"B": { "type": "block", "code": "apelanterns:lanternparts-yukimi-kasa-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"C": { "type": "block", "code": "apelanterns:lanternparts-yukimi-hibukuro-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"D": { "type": "block", "code": "apelanterns:lanternparts-yukimi-ashi-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"P": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
-			"L": { "type": "item", "code": "game:candle", "quantity": 1 }
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-ashi-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			}
 		},
 		"width": 3,
 		"height": 3,
 		"shapeless": false,
-		"output": { "type": "block", "code": "apelanterns:apestonelantern-yukimi-doro-{rocktype}-clean" }
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-yukimi-doro-{rocktype}-clean"
+		}
 	},
 	{
-		"name": "kodai-maru-yukimi",
-		"ingredientPattern": "ABP,CL_,D__",
+		"name": "yukimi-doro-weathered",
+		"ingredientPattern": "ABP,CL_,D_W",
 		"ingredients": {
-			"A": { "type": "block", "code": "apelanterns:lanternparts-yukimi-houju-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"B": { "type": "block", "code": "apelanterns:lanternparts-maru-kasa-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"C": { "type": "block", "code": "apelanterns:lanternparts-maru-hibukuro-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"D": { "type": "block", "code": "apelanterns:lanternparts-yukimi-ashi-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"P": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
-			"L": { "type": "item", "code": "game:candle", "quantity": 1 }
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-ashi-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:acid-full-sulfuric"
+				},
+				"requiresLitres": 1.0
+			}
 		},
 		"width": 3,
 		"height": 3,
 		"shapeless": false,
-		"output": { "type": "block", "code": "apelanterns:apestonelantern-kodai-maru-yukimi-{rocktype}-clean" }
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-yukimi-doro-{rocktype}-weathered"
+		}
 	},
 	{
-		"name": "ikekomi-gata-oribe",
+		"name": "yukimi-doro-clean-weathered",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-yukimi-doro-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:acid-full-sulfuric"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-yukimi-doro-{rocktype}-weathered"
+		}
+	},
+	{
+		"name": "yukimi-doro-mossy",
+		"ingredientPattern": "ABP,CL_,D_W",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-ashi-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:milkportion"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-yukimi-doro-{rocktype}-mossy"
+		}
+	},
+	{
+		"name": "yukimi-doro-clean-mossy",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-yukimi-doro-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:milkportion"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-yukimi-doro-{rocktype}-mossy"
+		}
+	},
+	{
+		"name": "yukimi-doro-rust",
+		"ingredientPattern": "ABP,CL_,D_W",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-ashi-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-yukimi-doro-{rocktype}-rust"
+		}
+	},
+	{
+		"name": "yukimi-doro-clean-rust",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-yukimi-doro-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-yukimi-doro-{rocktype}-rust"
+		}
+	},
+	{
+		"name": "yukimi-doro-cracked",
+		"ingredientPattern": "ABP,CL_,D_W",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-ashi-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "item",
+				"tags": [ "tool-hammer" ],
+				"isTool": true
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-yukimi-doro-{rocktype}-cracked"
+		}
+	},
+	{
+		"name": "yukimi-doro-clean-cracked",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-yukimi-doro-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "item",
+				"tags": [ "tool-hammer" ],
+				"isTool": true
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-yukimi-doro-{rocktype}-cracked"
+		}
+	},
+
+
+
+
+	{
+		"name": "kodai-maru-yukimi-clean",
+		"ingredientPattern": "ABP,CL_,D__",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-maru-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-maru-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-ashi-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-kodai-maru-yukimi-{rocktype}-clean"
+		}
+	},
+	{
+		"name": "kodai-maru-yukimi-weathered",
+		"ingredientPattern": "ABP,CL_,D_W",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-maru-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-maru-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-ashi-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:acid-full-sulfuric"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-kodai-maru-yukimi-{rocktype}-weathered"
+		}
+	},
+	{
+		"name": "kodai-maru-yukimi-clean-weathered",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-kodai-maru-yukimi-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:acid-full-sulfuric"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-kodai-maru-yukimi-{rocktype}-weathered"
+		}
+	},
+	{
+		"name": "kodai-maru-yukimi-mossy",
+		"ingredientPattern": "ABP,CL_,D_W",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-maru-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-maru-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-ashi-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:milkportion"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-kodai-maru-yukimi-{rocktype}-mossy"
+		}
+	},
+	{
+		"name": "kodai-maru-yukimi-clean-mossy",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-kodai-maru-yukimi-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:milkportion"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-kodai-maru-yukimi-{rocktype}-mossy"
+		}
+	},
+	{
+		"name": "kodai-maru-yukimi-rust",
+		"ingredientPattern": "ABP,CL_,D_W",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-maru-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-maru-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-ashi-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-kodai-maru-yukimi-{rocktype}-rust"
+		}
+	},
+	{
+		"name": "kodai-maru-yukimi-clean-rust",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-kodai-maru-yukimi-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-kodai-maru-yukimi-{rocktype}-rust"
+		}
+	},
+	{
+		"name": "kodai-maru-yukimi-cracked",
+		"ingredientPattern": "ABP,CL_,D_W",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-maru-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-maru-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-ashi-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "item",
+				"tags": [ "tool-hamme" ],
+				"isTool": true
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-kodai-maru-yukimi-{rocktype}-cracked"
+		}
+	},
+	{
+		"name": "kodai-maru-yukimi-clean-cracked",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-kodai-maru-yukimi-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "item",
+				"tags": [ "tool-hamme" ],
+				"isTool": true
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-kodai-maru-yukimi-{rocktype}-cracked"
+		}
+	},
+
+
+
+	{
+		"name": "ikekomi-gata-oribe-clean",
 		"ingredientPattern": "ABP,CLD,_E_",
 		"ingredients": {
-			"A": { "type": "block", "code": "apelanterns:lanternparts-yukimi-houju-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"B": { "type": "block", "code": "apelanterns:lanternparts-ikekomi-kasa-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"C": { "type": "block", "code": "apelanterns:lanternparts-ikekomi-hibukuro-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"D": { "type": "block", "code": "apelanterns:lanternparts-ikekomi-chuudai-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"E": { "type": "block", "code": "apelanterns:lanternparts-ikekomi-sao-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"P": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
-			"L": { "type": "item", "code": "game:candle", "quantity": 1 }
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-chuudai-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"E": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-sao-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			}
 		},
 		"width": 3,
 		"height": 3,
 		"shapeless": false,
-		"output": { "type": "block", "code": "apelanterns:apestonelantern-ikekomi-gata-oribe-{rocktype}-clean" }
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-ikekomi-gata-oribe-{rocktype}-clean"
+		}
 	},
 	{
-		"name": "ikekomi-gata-oribe",
-		"ingredientPattern": "ABP,CLD,FE_",
+		"name": "ikekomi-gata-oribe-weathered",
+		"ingredientPattern": "ABP,CLD,_EW",
 		"ingredients": {
-			"A": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-houju-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"B": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-kasa-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"C": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-hibukuro-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"D": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-chuudai-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"E": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-sao-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"F": { "type": "block", "code": "apelanterns:lanternparts-daitsuki-kiso-*", "name": "rocktype", "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
-			"P": { "type": "item", "code": "game:plumbandsquare", "ReturnedStack": { "type": "item", "code": "game:plumbandsquare", "quantity": 1 } },
-			"L": { "type": "item", "code": "game:candle", "quantity": 1 }
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-chuudai-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"E": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-sao-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:acid-full-sulfuric"
+				},
+				"requiresLitres": 1.0
+			}
 		},
 		"width": 3,
 		"height": 3,
 		"shapeless": false,
-		"output": { "type": "block", "code": "apelanterns:apestonelantern-okunoin-daitsuki-{rocktype}-clean" }
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-ikekomi-gata-oribe-{rocktype}-weathered"
+		}
+	},
+	{
+		"name": "ikekomi-gata-oribe-clean-weathered",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-ikekomi-gata-oribe-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:acid-full-sulfuric"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-ikekomi-gata-oribe-{rocktype}-weathered"
+		}
+	},
+	{
+		"name": "ikekomi-gata-oribe-mossy",
+		"ingredientPattern": "ABP,CLD,_EW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-chuudai-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"E": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-sao-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:milkportion"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-ikekomi-gata-oribe-{rocktype}-mossy"
+		}
+	},
+	{
+		"name": "ikekomi-gata-oribe-clean-mossy",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-ikekomi-gata-oribe-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:milkportion"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-ikekomi-gata-oribe-{rocktype}-mossy"
+		}
+	},
+	{
+		"name": "ikekomi-gata-oribe-rust",
+		"ingredientPattern": "ABP,CLD,_EW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-chuudai-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"E": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-sao-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-ikekomi-gata-oribe-{rocktype}-rust"
+		}
+	},
+	{
+		"name": "ikekomi-gata-oribe-clean-rust",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-ikekomi-gata-oribe-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-ikekomi-gata-oribe-{rocktype}-rust"
+		}
+	},
+	{
+		"name": "ikekomi-gata-oribe-cracked",
+		"ingredientPattern": "ABP,CLD,_EW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-yukimi-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-chuudai-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"E": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-ikekomi-sao-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "item",
+				"tags": [ "tool-hammer" ],
+				"isTool": true
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-ikekomi-gata-oribe-{rocktype}-cracked"
+		}
+	},
+	{
+		"name": "ikekomi-gata-oribe-clean-cracked",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-ikekomi-gata-oribe-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "item",
+				"tags": [ "tool-hammer" ],
+				"isTool": true
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-ikekomi-gata-oribe-{rocktype}-cracked"
+		}
+	},
+
+
+
+
+	{
+		"name": "okunoin-daitsuki-clean",
+		"ingredientPattern": "ABP,CLD,FE_",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-chuudai-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"E": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-sao-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"F": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-kiso-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-okunoin-daitsuki-{rocktype}-clean"
+		}
+	},
+	{
+		"name": "okunoin-daitsuki-weathered",
+		"ingredientPattern": "ABP,CLD,FEW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-chuudai-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"E": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-sao-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"F": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-kiso-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:acid-full-sulfuric"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-okunoin-daitsuki-{rocktype}-weathered"
+		}
+	},
+	{
+		"name": "okunoin-daitsuki-clean-weathered",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-okunoin-daitsuki-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:acid-full-sulfuric"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-okunoin-daitsuki-{rocktype}-weathered"
+		}
+	},
+	{
+		"name": "okunoin-daitsuki-mossy",
+		"ingredientPattern": "ABP,CLD,FEW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-chuudai-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"E": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-sao-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"F": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-kiso-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:milkportion"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-okunoin-daitsuki-{rocktype}-mossy"
+		}
+	},
+	{
+		"name": "okunoin-daitsuki-clean-mossy",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-okunoin-daitsuki-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			}
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:milkportion"
+				},
+				"requiresLitres": 1.0
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-okunoin-daitsuki-{rocktype}-mossy"
+		}
+	},
+	{
+		"name": "okunoin-daitsuki-rust",
+		"ingredientPattern": "ABP,CLD,FEW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-chuudai-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"E": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-sao-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"F": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-kiso-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-okunoin-daitsuki-{rocktype}-rust"
+		}
+	},
+	{
+		"name": "okunoin-daitsuki-rust",
+		"ingredientPattern": "ABP,CLD,FEW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-chuudai-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"E": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-sao-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"F": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-kiso-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-okunoin-daitsuki-{rocktype}-rust"
+		}
+	},
+	{
+		"name": "okunoin-daitsuki-clean-rust",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-okunoin-daitsuki-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			}
+		},
+		"width": 2,
+		"height": 1,
+    "recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-okunoin-daitsuki-{rocktype}-rust"
+		}
+	},
+	{
+		"name": "okunoin-daitsuki-cracked",
+		"ingredientPattern": "ABP,CLD,FEW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-houju-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"B": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-kasa-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"C": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-hibukuro-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"D": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-chuudai-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"E": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-sao-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"F": {
+				"type": "block",
+				"code": "apelanterns:lanternparts-daitsuki-kiso-*",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plumbandsquare",
+				"ReturnedStack": {
+					"type": "item",
+					"code": "game:plumbandsquare",
+					"quantity": 1
+				}
+			},
+			"L": {
+				"type": "item",
+				"code": "game:candle",
+				"quantity": 1
+			},
+			"W": {
+				"type": "item",
+				"tags": [ "tool-hammer" ],
+				"isTool": true
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-okunoin-daitsuki-{rocktype}-cracked"
+		}
+	},
+	{
+		"name": "okunoin-daitsuki-clean-cracked",
+		"ingredientPattern": "AW",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "apelanterns:apestonelantern-okunoin-daitsuki-*-clean",
+				"name": "rocktype",
+				"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ]
+			},
+			"W": {
+				"type": "item",
+				"tags": [ "tool-hammer" ],
+				"isTool": true
+			}
+		},
+		"width": 2,
+		"height": 1,
+    "recipeGroup": 1,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "apelanterns:apestonelantern-okunoin-daitsuki-{rocktype}-cracked"
+		}
 	}
 ]

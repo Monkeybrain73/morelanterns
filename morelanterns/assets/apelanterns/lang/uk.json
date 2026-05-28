@@ -1,0 +1,147 @@
+{
+	"game:tabname-apelanterns": "More Lanterns",
+	"game:tabname-apepaperlanterns": "Paper Lanterns",
+	"game:tabname-apefloatinglanterns": "Floating Lanterns",
+	"game:tabname-apemetallanterns": "Metal Lanterns",
+	"game:tabname-apestonelanterns": "Stone Lanterns",
+
+	"lanterncolor-plain": "Звичайний",
+	"lanterncolor-red": "Червоний",
+	"lanterncolor-green": "Зелений",
+	"lanterncolor-blue": "Синій",
+	"lanterncolor-yellow": "Жовтий",
+	"lanterncolor-orange": "Помаранчевий",
+	"lanterncolor-brown": "Коричневий",
+	"lanterncolor-purple": "Фіолетовий",
+	"lanterncolor-pink": "Рожевий",
+	"lanterncolor-cyan": "Блакитний",
+	"lanterncolor-woad": "Вайдовий синій",
+
+	"paperlantern-on": "Світить",
+	"paperlantern-off": "Не світить",
+	"paperlantern-basic": "Паперовий ліхтар",
+	"paperlantern-chinese": "Прикрашений китайський паперовий ліхтар",
+	"paperlantern-chinese2": "Китайський паперовий ліхтар",
+	"paperlantern-medieval1small": "Ліхтар у середньовічному стилі",
+	"block-apepaperlantern-off-*": "Не світить",
+	"block-apepaperlantern-on-*": "Світить",
+
+
+	"block-apemetallantern-on-modern1-plain-*": "Ліхтар у стилі модерн (Світить)",
+	"block-apemetallantern-on-modern2-plain-*": "Сучасний стиль, високий ліхтар (Світить)",
+	"block-apemetallantern-on-gothic1-plain-*": "Ліхтар у готичному стилі (Світить)",
+	"block-apemetallantern-on-medieval2-plain-*": "Ліхтар у середньовічному стилі (Світить)",
+	"block-apemetallantern-on-medieval3-plain-*": "Ліхтар у середньовічному стилі (Світить)",
+	"block-apemetallantern-on-medieval4-plain-*": "Ліхтар у середньовічному стилі (Світить)",
+	"block-apemetallantern-on-medieval6-plain-*": "Ліхтар у середньовічному стилі (Світить)",
+	"block-apemetallantern-off-modern1-plain-*": "Ліхтар у стилі модерн (Не світить)",
+	"block-apemetallantern-off-modern2-plain-*": "Сучасний стиль, високий ліхтар (Не світить)",
+	"block-apemetallantern-off-gothic1-plain-*": "Ліхтар у готичному стилі (Не світить)",
+	"block-apemetallantern-off-medieval2-plain-*": "Ліхтар у середньовічному стилі (Не світить)",
+	"block-apemetallantern-off-medieval3-plain-*": "Ліхтар у середньовічному стилі світить)",
+	"block-apemetallantern-off-medieval4-plain-*": "Ліхтар у середньовічному стилі (Не світить)",
+	"block-apemetallantern-off-medieval6-plain-*": "Ліхтар у середньовічному стилі (Не світить)",
+
+	"item-colouredpaper-parchment-blue": "Пергамент (Синій)",
+	"item-colouredpaper-parchment-red": "Пергамент (Червоний)",
+	"item-colouredpaper-parchment-green": "Пергамент (Зелений)",
+	"item-colouredpaper-parchment-yellow": "Пергамент (Жовтий)",
+	"item-colouredpaper-parchment-orange": "Пергамент (Помаранчевий)",
+	"item-colouredpaper-parchment-brown": "Пергамент (Коричневий)",
+	"item-colouredpaper-parchment-purple": "Пергамент (Фіолетовий)",
+	"item-colouredpaper-parchment-pink": "Пергамент (Рожевий)",
+	"item-colouredpaper-parchment-cyan": "Пергамент (Блакитний)",
+	"item-colouredpaper-parchment-woad": "Пергамент (Темно синій)",
+
+	"lanternparts-kiso": "Основа ліхтаря",
+	"lanternparts-sao": "Ліхтарний стовп",
+	"lanternparts-ashi": "Основа ліхтаря з ніжками",
+	"lanternparts-chuudai": "Платформа для вогнища ліхтаря",
+	"lanternparts-hibukuro": "Корпус ліхтаря",
+	"lanternparts-kasa": "Дах ліхтаря",
+	"lanternparts-houju": "Прикрашений дах ліхтаря",
+
+	"block-lanternparts-*-kiso-*": "Основа ліхтаря",
+	"block-lanternparts-*-sao-*": "Ліхтарний стовп",
+	"block-lanternparts-*-ashi-*": "Основа ліхтаря з ніжками",
+	"block-lanternparts-*-chuudai-*": "Платформа для вогнища ліхтаря",
+	"block-lanternparts-*-hibukuro-*": "Корпус ліхтаря",
+	"block-lanternparts-*-kasa-*": "Дах ліхтаря",
+	"block-lanternparts-*-houju-*": "Прикрашений дах ліхтаря",
+
+
+	"lanternparts-style-yukimi": "Юкімі",
+	"lanternparts-style-maru": "Кодай Мару Юкімі",
+	"lanternparts-style-ikekomi": "Ікекомі",
+	"lanternparts-style-daitsuki": "Дайцукі",
+
+
+	"stonelantern-yukimi-doro": "Юкімі Дōрō",
+	"stonelantern-kodai-maru-yukimi": "Кодай Мару Юкімі Дōрō",
+	"stonelantern-ikekomi-gata-oribe": "Орібе Ікекомі Дōрō",
+	"stonelantern-okunoin-daitsuki": "Окуноін Дайцукі Дōрō",
+
+
+	"apestonelantern-clean": "новий",
+	"apestonelantern-weathered": "витриманий",
+	"apestonelantern-cracked": "тріснутий",
+	"apestonelantern-mossy": "мховий",
+	"apestonelantern-rust": "іржавий",
+
+	"block-apestonelantern-*-*-*-clean": "новий",
+	"block-apestonelantern-*-*-*-weathered": "витриманий",
+	"block-apestonelantern-*-*-*-cracked": "тріснутий",
+	"block-apestonelantern-*-*-*-mossy": "мховий",
+	"block-apestonelantern-*-*-*-rust": "іржавий",
+
+
+	"game:apestonelantern-handbook-help-title-yukimi-doro": "Юкімі Дōрō",
+	"game:apestonelantern-handbook-help-title-kodai-maru-yukimi": "Кодай Мару Юкімі Дōрō",
+	"game:apestonelantern-handbook-help-title-ikekomi-gata-oribe": "Ікекомі Дōрō",
+	"game:apestonelantern-handbook-help-title-daitsuki": "Дайцукі Дōрō",
+
+	"game:apestonelantern-handbook-help-text-yukimi": "<br>Традиційний японський садовий ліхтар, який часто називають «ліхтарем для споглядання снігу». Ці низькі, присадкуваті ліхтарі мають широкі, плоскі верхівки, призначені для накопичення снігу. Снігові ліхтарі отримали таку назву, оскільки великий діаметр верхньої кришки захищає вогнище під нею. Цей привабливий гранітний ліхтар найчастіше використовується в східних композиціях з водоймами і його потрібно ретельно підбирати, щоб він відповідав пропорціям використовуваної водойми.",
+	"game:apestonelantern-handbook-help-text-oribe": "<br>Традиційний японський садовий ліхтар, також відомий як закопаний ліхтар. Орібе-Ґата— найвідоміший дизайн Ікекомі-Ґата. Характерна форма з широкою розкльошеною верхньою частиною і вужчою основою, часто прикрашена геометричними візерунками або квітковими мотивами. Призначений для вкопування або вставляння в землю.",
+	"game:apestonelantern-handbook-help-text-daitsuki": "<br>Традиційний японський храмовий ліхтар. «Окуноін» означає священну зону в глибині святилища, де зберігаються важливі або приховані буддійські статуї. Ліхтарі, розміщені в цих відокремлених зонах, називаються ліхтарями в стилі Окуноін. Вони мають характерну форму з широкою розкльошеною верхньою частиною з «варабіте» і прикрашеною основою, часто декорованою геометричними візерунками або квітковими мотивами.",
+
+	"block-handbooktitle-apestonelantern-yukimi-doro-*": "Юкімі Дōрō",
+	"block-handbooktitle-apestonelantern-kodai-maru-yukimi-*": "Кодай Мару Юкімі Дōрō",
+	"block-handbooktitle-apestonelantern-ikekomi-gata-oribe-*": "Ікекомі Дōрō",
+	"block-handbooktitle-apestonelantern-okunoin-daitsuki-*": "Юкімі Дōрō",
+	"block-handbooktext-apestonelantern-yukimi-doro-*": "<br>Традиційний японський садовий ліхтар, який часто називають «ліхтарем для споглядання снігу». Ці низькі, присадкуваті ліхтарі мають широкі, плоскі верхівки, призначені для накопичення снігу. Снігові ліхтарі отримали таку назву, оскільки великий діаметр верхньої кришки захищає вогнище під нею. Цей привабливий гранітний ліхтар найчастіше використовується в східних композиціях з водоймами і його потрібно ретельно підбирати, щоб він відповідав пропорціям використовуваної водойми.",
+	"block-handbooktext-apestonelantern-kodai-maru-yukimi-*": "<br>Традиційний японський садовий ліхтар, який часто називають «ліхтарем для споглядання снігу». Ці низькі, присадкуваті ліхтарі мають широкі, плоскі верхівки, призначені для накопичення снігу. Снігові ліхтарі отримали таку назву, оскільки великий діаметр верхньої кришки захищає вогнище під нею. Цей привабливий гранітний ліхтар найчастіше використовується в східних композиціях з водоймами і його потрібно ретельно підбирати, щоб він відповідав пропорціям використовуваної водойми.",
+	"block-handbooktext-apestonelantern-ikekomi-gata-oribe-*": "<br>Традиційний японський садовий ліхтар, також відомий як закопаний ліхтар. Орібе-Ґата — найвідоміший дизайн Ікекомі-Ґата . Характерна форма з широкою розкльошеною верхньою частиною і вужчою основою, часто прикрашена геометричними візерунками або квітковими мотивами. Призначений для вкопування або вставляння в землю.",
+	"block-handbooktext-apestonelantern-okunoin-daitsuki-*": "<br>Традиційний японський храмовий ліхтар. «Окуноін» означає священну зону в глибині святилища, де зберігаються важливі або приховані буддійські статуї. Ліхтарі, розміщені в цих відокремлених зонах, називаються ліхтарями в стилі Окуноін. Вони мають характерну форму з широкою розкльошеною верхньою частиною з «варабіте» і прикрашеною основою, часто декорованою геометричними візерунками або квітковими мотивами.",
+
+
+	"blockhelp-behavior-dimmable-ctrl": "Приглушене світло",
+	"dimmable-help": "Ctrl + правий клік, щоб приглушити світло",
+	"rightclickpickup-help": "Клацніть правою кнопкою миші, щоб підібрати",
+
+	"block-lightlevel": "Рівень світла:",
+	"lightl1": "Яскраве",
+	"lightl2": "Нормальне",
+	"lightl3": "Приглушене",
+	"lightl4": "Слабке",
+	
+
+	"block-floatinglantern-*": "Плаваючий ліхтар",
+	"blockdesc-floatinglantern-*": "Помістіть безпосередньо на воду",
+	"floatinglantern": "Плаваючий ліхтар",
+	"floatinglantern-floating1": "Квадрат",
+	"floatinglantern-floating2": "Восьмикутник",
+	"floatinglantern-floating3": "Човен",
+	"floatinglantern-floating4": "Зірка",
+
+
+	"block-apepaperitem-chubs-*": "Чаббс",
+	"block-apepaperitem-saxon-*": "Саксон",
+	"game:apepaperitem-handbook-help-title-chubs": "Чаббс",
+	"game:apepaperitem-handbook-help-title-saxon": "Саксон",
+	"game:apepaperitem-handbook-help-text-chubs": "<br>Потребує багато обіймів, ласощів і погладжувань по мордочці.<br>З радістю відпочине у вас на руках або на клавіатурі.<br>Вимагає повного панування над світом, смаженої курки та чистого лотка для туалету.",
+	"game:apepaperitem-handbook-help-text-saxon": "<br><strong><i>Старий</i></strong><br>Господар і володар дому.<br>",
+	
+	"game:item-dye-cyan": "Блакитний барвник",
+	"game:incontainer-item-dye-cyan": "Блакитний барвник"
+
+}
