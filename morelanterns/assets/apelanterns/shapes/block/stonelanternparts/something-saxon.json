@@ -10,7 +10,7 @@
 	"textures": {
 		"milkportion": "game:block/liquid/milkportion",
 		"purple5-b": "game:block/plant/flower/petal/lupine/purple5-b",
-		"arctic-female": "game:entity/fox/arctic-female",
+		"arctic-female": "game:entity/animal/mammal/fox/arctic-female",
 		"black": "game:item/armor/cloth/black",
 		"orange": "game:item/armor/cloth/orange",
 		"white": "game:item/armor/cloth/white"

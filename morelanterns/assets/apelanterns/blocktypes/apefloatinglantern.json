@@ -36,11 +36,11 @@
 	"texturesByType": {
 		"*-floating2-*": {
 		"wood": { "base": "game:block/wood/debarked/oak" },
-		"paper": { "base": "game:block/cloth/wool/white1" }
+		"paper": { "base": "game:block/cloth/wool/{colour}1" }
 		},
 		"*": {
 		"wood": { "base": "game:block/wood/debarked/oak" },
-		"paper": { "base": "game:block/cloth/paper/blank-small" }
+		"paper": { "base": "game:block/cloth/wool/{colour}1" }
 		}
 	},
 	"texturesinventory": {
