@@ -1,5 +1,6 @@
 {
 	"code": "colouredpaper",
+	"class": "ItemBook",
 	"variantgroups": [
 		{
 			"code": "type",
@@ -44,7 +45,10 @@
 		}
 	],
 	"attributes": {
-		"handbook": { "groupBy": "colouredpaper-*" }
+		"handbook": { "groupBy": "colouredpaper-*" },
+		"editable": true,
+		"readable": true,
+		"maxPageCount": 2
 	},
 	"creativeinventory": {
 		"general": [ "*" ],
