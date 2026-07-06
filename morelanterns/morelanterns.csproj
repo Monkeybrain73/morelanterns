@@ -61,8 +61,12 @@
 </ItemGroup>
 
 <ItemGroup>
-	<PackageReference Include="SkiaSharp" Version="3.119.0" />
-	<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+	<PackageReference Include="SkiaSharp" Version="3.119.0">
+		<ExcludeAssets>runtime</ExcludeAssets>
+	</PackageReference>
+	<PackageReference Include="Newtonsoft.Json" Version="13.0.4">
+		<ExcludeAssets>runtime</ExcludeAssets>
+	</PackageReference>
 </ItemGroup>
 
 </Project>
