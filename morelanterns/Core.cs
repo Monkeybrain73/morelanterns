@@ -8,7 +8,7 @@ using Vintagestory.API.Server;
     ModInfo("apelanterns",
             Authors = new string[] { "xXx_Ape_xXx" },
             Description = "Adds a variety of decorative and useful lanterns",
-            Version = "1.4.0")
+            Version = "1.4.2")
 ]
 
 
