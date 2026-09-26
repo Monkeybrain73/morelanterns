@@ -66,7 +66,21 @@
 		{ "code": "rock", "states": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
 		{ "code": "decor", "states": [ "clean", "weathered", "mossy", "rust", "cracked" ] }
 	],
-	"shape": { "base": "apelanterns:block/apestonelantern/{type}"
+	"shape": { "base": "apelanterns:block/apestonelantern/{type}",
+		"alternates": [
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 22.5 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 45 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 67.5 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 90 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 112.5 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 135 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 157.5 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 180 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 202.5 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 225 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 247.5 },
+			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 270 }
+		]
 	},
 	"texturesByType": {
 		"*-mossy": { "stone": { "base": "game:block/stone/polishedrock-old/inside/{rock}",

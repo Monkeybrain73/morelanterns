@@ -21,7 +21,23 @@ namespace apelanterns
 
         public override bool OnTesselation(ITerrainMeshPool mesher, ITesselatorAPI tessellator)
         {
-            tessellator.TesselateBlock(Block, out MeshData mesh);
+            int alternateCount = 0;
+
+            if (Block.Textures != null && Block.Textures.TryGetValue("stone", out CompositeTexture stoneTexture))
+            {
+                alternateCount = stoneTexture.Alternates?.Length ?? 0;
+            }
+
+            int alternateNumber = 0;
+
+            if (alternateCount > 0)
+            {
+                alternateNumber = 1 + GameMath.MurmurHash3Mod(Pos.X, Pos.Y, Pos.Z, alternateCount);
+            }
+
+            ITexPositionSource textureSource = tessellator.GetTextureSource(Block, alternateNumber);
+
+            tessellator.TesselateShape("rotatable-lantern", Block.Code, Block.Shape, out MeshData mesh, textureSource);
             mesh.Rotate(new Vec3f(0.5f, 0.5f, 0.5f), 0, MeshAngle, 0);
             mesher.AddMeshData(mesh);
 
