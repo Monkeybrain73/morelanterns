@@ -8,7 +8,7 @@ using Vintagestory.API.Server;
     ModInfo("apelanterns",
             Authors = new string[] { "xXx_Ape_xXx" },
             Description = "Adds a variety of decorative and useful lanterns",
-            Version = "1.4.2")
+            Version = "1.4.4")
 ]
 
 
@@ -53,11 +53,14 @@ namespace apelanterns
         {
             api.RegisterBlockClass("MoreLanterns.BlockFloatingLantern", typeof(BlockFloatingLantern));
             api.RegisterBlockClass("MoreLanterns.BlockDimmable", typeof(BlockDimmable));
+            api.RegisterBlockClass("MoreLanterns.BlockRotatableLantern", typeof(BlockRotatableLantern));
 
             api.RegisterBlockEntityClass("MoreLanterns.BeFloatingLantern", typeof(BEFloatingLantern));
 
             api.RegisterBlockBehaviorClass("MoreLanterns.BlockName", typeof(BlockBehaviorName));
             api.RegisterBlockBehaviorClass("MoreLanterns.BlockDesc", typeof(BlockBehaviorBlockDescription));
+
+            api.RegisterBlockEntityBehaviorClass("MoreLanterns.BEBehaviorPlayerFacing", typeof(BEBehaviorPlayerFacing));
         }
 
         public override void Dispose()

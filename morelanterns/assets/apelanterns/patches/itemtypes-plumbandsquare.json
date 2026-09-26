@@ -1,0 +1,20 @@
+[
+  {
+    "_comment": "Turn the plumb and square into a tool",
+    "enabled": true,
+    "side": "server",
+    "file": "game:itemtypes/tool/plumbandsquare.json",
+    "path": "/tool",
+    "op": "add",
+    "value": "Meter"
+  },
+  {
+    "_comment": "Give it durability",
+    "enabled": true,
+    "side": "server",
+    "file": "game:itemtypes/tool/plumbandsquare.json",
+    "path": "/durability",
+    "op": "add",
+    "value": 500
+  }
+]

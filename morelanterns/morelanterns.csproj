@@ -50,6 +50,9 @@
   </Content>
   <None Remove="assets\apelanterns\lang\es-es.json" />
   <None Remove="assets\apelanterns\lang\zh-cn.json" />
+  <Content Include="..\..\..\Mods\MyMods\apelanterns\apelanterns-v1.22.0-1.4.1\assets\apelanterns\shapes\block\something-saxon.json" Link="assets\apelanterns\shapes\block\something-saxon.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
   <Content Include="modinfo.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>

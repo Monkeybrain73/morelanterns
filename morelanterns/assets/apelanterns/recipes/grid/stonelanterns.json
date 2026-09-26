@@ -30,11 +30,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+        "isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -81,11 +78,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -178,11 +172,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -275,11 +266,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -354,11 +342,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -367,8 +352,9 @@
 			},
 			"W": {
 				"type": "item",
-				"tags": [ "tool-hammer" ],
-				"isTool": true
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 1
 			}
 		},
 		"width": 3,
@@ -391,8 +377,9 @@
 			},
 			"W": {
 				"type": "item",
-				"tags": [ "tool-hammer" ],
-				"isTool": true
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 1
 			}
 		},
 		"width": 2,
@@ -439,11 +426,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -490,11 +474,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -587,11 +568,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -684,11 +662,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -763,11 +738,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -776,8 +748,9 @@
 			},
 			"W": {
 				"type": "item",
-				"tags": [ "tool-hamme" ],
-				"isTool": true
+				"code": "game:hammer-*",
+				"isTool": true,
+        "toolDurabilityCost": 1
 			}
 		},
 		"width": 3,
@@ -800,8 +773,9 @@
 			},
 			"W": {
 				"type": "item",
-				"tags": [ "tool-hamme" ],
-				"isTool": true
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 1
 			}
 		},
 		"width": 2,
@@ -853,11 +827,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -910,11 +881,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -1013,11 +981,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -1116,11 +1081,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -1201,11 +1163,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -1214,8 +1173,9 @@
 			},
 			"W": {
 				"type": "item",
-				"tags": [ "tool-hammer" ],
-				"isTool": true
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 1
 			}
 		},
 		"width": 3,
@@ -1238,8 +1198,9 @@
 			},
 			"W": {
 				"type": "item",
-				"tags": [ "tool-hammer" ],
-				"isTool": true
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 1
 			}
 		},
 		"width": 2,
@@ -1298,11 +1259,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -1361,11 +1319,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -1470,11 +1425,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -1579,11 +1531,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -1646,11 +1595,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -1737,11 +1683,8 @@
 			"P": {
 				"type": "item",
 				"code": "game:plumbandsquare",
-				"ReturnedStack": {
-					"type": "item",
-					"code": "game:plumbandsquare",
-					"quantity": 1
-				}
+				"isTool": true,
+				"toolDurabilityCost": 1
 			},
 			"L": {
 				"type": "item",
@@ -1750,8 +1693,9 @@
 			},
 			"W": {
 				"type": "item",
-				"tags": [ "tool-hammer" ],
-				"isTool": true
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 1
 			}
 		},
 		"width": 3,
@@ -1774,8 +1718,9 @@
 			},
 			"W": {
 				"type": "item",
-				"tags": [ "tool-hammer" ],
-				"isTool": true
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 1
 			}
 		},
 		"width": 2,

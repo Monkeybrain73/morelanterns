@@ -1,11 +1,18 @@
 {
 	"code": "apestonelantern",
+	"class": "MoreLanterns.BlockRotatableLantern",
 	"entityClass": "Transient",
 	"behaviors": [
-		{ "name": "MoreLanterns.BlockName",
-			"properties": { "parts": ["apelanterns:stonelantern-{type}", " (", "game:rock-{rock}", ")", " (", "apelanterns:apestonelantern-{decor}", ")"] }
+		{
+			"name": "MoreLanterns.BlockName",
+			"properties": { "parts": [ "apelanterns:stonelantern-{type}", " (", "game:rock-{rock}", ")", " (", "apelanterns:apestonelantern-{decor}", ")" ] }
 		},
 		{ "name": "UnstableFalling" }
+	],
+	"entityBehaviors": [
+		{
+			"name": "MoreLanterns.BEBehaviorPlayerFacing"
+		}
 	],
 	"storageFlags": 1,
 	"attributesByType": {
@@ -59,21 +66,7 @@
 		{ "code": "rock", "states": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] },
 		{ "code": "decor", "states": [ "clean", "weathered", "mossy", "rust", "cracked" ] }
 	],
-	"shape": { "base": "apelanterns:block/apestonelantern/{type}",
-		"alternates": [
-			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 22.5 },
-			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 45 },
-			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 67.5 },
-			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 90 },
-			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 112.5 },
-			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 135 },
-			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 157.5 },
-			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 180 },
-			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 202.5 },
-			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 225 },
-			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 247.5 },
-			{ "base": "apelanterns:block/apestonelantern/{type}", "rotateY": 270 },
-		]
+	"shape": { "base": "apelanterns:block/apestonelantern/{type}"
 	},
 	"texturesByType": {
 		"*-mossy": { "stone": { "base": "game:block/stone/polishedrock-old/inside/{rock}",
